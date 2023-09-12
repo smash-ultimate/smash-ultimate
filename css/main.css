@@ -4,6 +4,21 @@ body{
 	overflow-x: hidden;
 }
 
+h1, h2, h3{
+	font-family: 'SMASH';
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
 .bar {
 	width: 100%;
 	height: 50px;
@@ -13,6 +28,7 @@ body{
 }
 
 .bar-button{
+	font-family: 'SMASH';
 	height: 100%;
 	background-color: black;
 	color: white;
@@ -36,14 +52,18 @@ body{
 
 @font-face {
     font-family: 'SMASH';
-    src: url('./smash.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    src: url('./../smash.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 .title {
 	background-color:black;
+	padding-top: 0px;
+	margin-top: 0px;
 	padding-bottom: 10px;
 	font-family: 'SMASH';
 	font-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .main-content{
@@ -68,4 +88,16 @@ body{
 	height: 100px;
 	text-align: left;
 	margin: 10px;
+	background-repeat: no-repeat;
+}
+
+.move{
+	font-family: 'SMASH';
+	text-align: center;
+	border-width: 3px;
+	border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+	margin: 10px;
+	padding: 10px;
 }
