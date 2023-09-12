@@ -53,10 +53,10 @@ body{
 #to_top{
 	display: none;
 	position: fixed;
-	bottom: 20px;
-	right: 20px;
+	bottom: 0px;
+	right: 0px;
 	
-	font-size: 30px;
+	font-size: 100px;
 	
 	transform: rotate(90deg);
 }
