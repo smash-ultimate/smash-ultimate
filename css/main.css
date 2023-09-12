@@ -1,6 +1,7 @@
 body{
 	padding: 0px;
 	margin: 0px;
+	overflow-x: hidden;
 }
 
 .bar {
@@ -8,6 +9,7 @@ body{
 	height: 50px;
 	background-color: black;
 	padding: 10px;
+	position: sticky;
 }
 
 .bar-button{
@@ -20,6 +22,10 @@ body{
 	border-radius: 4px;
 	cursor: pointer;
 	margin-right: 5%;
+	
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
 }
 
 .bar-button:hover{
@@ -28,6 +34,38 @@ body{
 	border: 2px solid red;
 }
 
+@font-face {
+    font-family: 'SMASH';
+    src: url('./smash.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.title {
+	background-color:black;
+	padding-bottom: 10px;
+	font-family: 'SMASH';
+	font-size: 100px;
+}
+
 .main-content{
+	margin: 10px;
+}
+
+#to_top{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	
+	font-size: 30px;
+	
+	transform: rotate(90deg);
+}
+
+.char-button{
+	font-family: 'SMASH';
+	font-size: 20px;
+	width: 400px;
+	height: 100px;
+	text-align: left;
 	margin: 10px;
 }
