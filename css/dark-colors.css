@@ -1,0 +1,11 @@
+html  {
+	--text-color-fg: #AAAAAA;
+	--text-color-bg: #111111;
+}
+
+@media screen and (prefers-color-scheme: light) {
+	html  {
+		--text-color-fg: #000000;
+		--text-color-bg: #DDDDDD;
+	}
+}

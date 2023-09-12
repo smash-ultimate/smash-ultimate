@@ -1,0 +1,4 @@
+* {
+	color: var(--text-color-fg);
+	background-color: var(--text-color-bg);
+}
