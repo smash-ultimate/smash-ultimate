@@ -133,7 +133,7 @@ for char in data:
         info = info.replace("%NOTES%", "None")
 
     
-    play = play_base.replace("%NAME%", d["name"]).replace("%GUIDE%", d["guide"]).replace("%COMBO%", d["combo"]).replace("%DISCORD%", d["discord"])
+    play = play_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%GUIDE%", d["guide"]).replace("%COMBO%", d["combo"]).replace("%DISCORD%", d["discord"])
 
     with open("./play/"+char+".html", "w") as fp:
         fp.write(play)
