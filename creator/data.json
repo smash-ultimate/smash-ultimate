@@ -1,0 +1,146 @@
+{
+	"mario": {
+		"name": "Mario",
+		"thumb_name": "mario",
+		"frame": "mario",
+		"stages": ["Battle field", "Yoshi Story"],
+		"str": [
+			"Projectile Approch (mix up how you deal with projectile)",
+			"Combo Game (di away and don't mash jump)",
+			"Out Of Shield USmash (don't stand too close at high % and dont touch sheild)",
+			"Edge Guarding (mix up recovery)",
+			"Back Throw Kills (don't get grabed at ledge at high %)"
+		],
+		"weak": [
+			"Reach (have to get up close)",
+			"Struggles to kill",
+			"Recovery (edge guard them)"
+		],
+		"notes": [
+			
+		],
+		"beat": "ZGEXsiYu7ek",
+		"guide": "vKBM9B8CEBw",
+		"combo": "vKBM9B8CEBw",
+		"discord": "xARdRQ3eGz"
+	},
+	
+	"donkey_kong": {
+		"name": "Donkey Kong",
+		"thumb_name": "donkey_kong",
+		"frame": "donkey_kong",
+		"stages": ["PS2", "Yoshi Story"],
+		"str": [
+			"Edge guarding [Has 4 Spikes] (Beware off stage, mix up recovery)",
+			"Grab Game (don't get grabed)",
+			"Super Armour (Respect it)",
+			"Sheild Damage"
+		],
+		"weak": [
+			"Combos",
+			"Zoneing",
+			"Recovery"
+		],
+		"notes": [
+			"Mash Grabs",
+			"Tech Stage Spikes"
+		],
+		"beat": "y4vtXM2vzug",
+		"guide": "",
+		"combo": "RctChRAw-GM",
+		"discord": "qMzMf8g"
+	},
+	
+	"link": {
+		"name": "Link",
+		"thumb_name": "link",
+		"frame": "link",
+		"stages": ["Opponents worst stage"],
+		"str": [
+			"Nair",
+			"Projectiles (respect them)",
+			"Bomb",
+			"Out of sheild [Up B] (don't touch sheild)"
+		],
+		"weak": [
+			"Laggy Moves",
+			"Reflectors",
+			"Recovery"
+		],
+		"notes": [
+			"Rush Them Down, Get Past Projectiles With Movment And Attack"
+		],
+		"beat": "zAyYPBDoCQ8",
+		"guide": "VlKkv5HSYVA",
+		"combo": "wToxMJRDKtU",
+		"discord": "Wynbrkd"
+	},
+	
+	"samus": {
+		"name": "Samus",
+		"thumb_name": "samus",
+		"frame": "samus",
+		"stages": ["Final Destination"],
+		"str": [
+			"Zoneing",
+			"Bomb Recovery (very strange recovery pattern)",
+			"Out of sheild [Up B] (don't touch sheild)"
+		],
+		"weak": [
+			"Slow Mobility (rush them down)",
+			"Reflectors"
+		],
+		"notes": [
+			"Respect Aerials and Long range grab"
+		],
+		"beat": "x88Fn6h8sXY",
+		"guide": "nW9AedeMeFw",
+		"combo": "vDr1GvW9PTM",
+		"discord": "b69G8H6"
+	},
+	
+	"yoshi": {
+		"name": "Yoshi",
+		"thumb_name": "yoshi",
+		"frame": "yoshi",
+		"stages": ["Tri Plats"],
+		"str": [
+			"Air Game",
+			"Nair Out Of Sheild (don't touch sheild)",
+			"Projectile",
+			"Tilts Lead Into Combos"
+		],
+		"weak": [
+			"Bad Short Hop (punish it)",
+			"Poor Range And Reach (predicable approch)",
+			"Recovery"
+		],
+		"notes": [
+			"Super Armour On Double Jump"
+		],
+		"beat": "SqKDVXvzN6I",
+		"guide": "zbel6sAHzDM",
+		"combo": "3a-NFx897ls",
+		"discord": "QKanWPU"
+	},
+	
+	"": {
+		"name": "",
+		"thumb_name": "",
+		"frame": "",
+		"stages": [],
+		"str": [
+			
+		],
+		"weak": [
+			
+		],
+		"notes": [
+			
+		],
+		"beat": "",
+		"guide": "",
+		"combo": "",
+		"discord": ""
+	}
+}

@@ -70,7 +70,9 @@ h1, h2, h3{
 }
 
 .main-content{
-	margin: 10px;
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 100px;
 }
 
 #to_top{
