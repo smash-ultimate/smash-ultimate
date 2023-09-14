@@ -17,6 +17,7 @@ info_base = """<html>
 				<a href="./../play.html" style="background-color:black;"> <button class="bar-button">How To Play A Character</button></a>
 				<a href="./../main.html" style="background-color:black;"> <button class="bar-button">Find A Main</button></a>
 				<a href="./../basics.html" style="background-color:black;"> <button class="bar-button">How TO Smash</button></a>
+				<a href="./../stages.html" style="background-color:black;"> <button class="bar-button">Legal Stages</button></a>
 			</center>
 			
 			<center>
@@ -73,6 +74,7 @@ play_base = """<html>
 				<a href="./../play.html" style="background-color:black;"> <button class="bar-button">How To Play A Character</button></a>
 				<a href="./../main.html" style="background-color:black;"> <button class="bar-button">Find A Main</button></a>
 				<a href="./../basics.html" style="background-color:black;"> <button class="bar-button">How TO Smash</button></a>
+				<a href="./../stages.html" style="background-color:black;"> <button class="bar-button">Legal Stages</button></a>
 			</center>
 			
 			<center>
@@ -94,7 +96,7 @@ play_base = """<html>
 """
 
 def video(id_):
-    return """<iframe width="640" height = "400" src="https://www.youtube.com/embed/"></iframe><br>"""
+    return """<iframe width="640" height = "400" src="https://www.youtube.com/embed/"""+id_+""""></iframe><br>"""
 
 			
 #<!--https://www.youtube.com/watch?v=29c6-AJr8LY-->

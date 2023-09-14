@@ -124,11 +124,189 @@
 		"discord": "QKanWPU"
 	},
 	
+	"kirby": {
+		"name": "kirby",
+		"thumb_name": "kirby",
+		"frame": "kirby",
+		"stages": ["Final Destination"],
+		"str": [
+			"Edge Guarding (mix up recovery)",
+			"Grab Game [Has Kill Throws] (dont get grabed)"
+		],
+		"weak": [
+			"Range (out range him with disjoints)",
+			"Approch (very predicable)",
+			"Camping",
+			"Light Weight (can die at low %)",
+			"Juggleling (watch out for down b though)",
+			"Explotable Recovery [Very Slow]"
+		],
+		"notes": [
+			"Kirby Plays Bait Punish"
+		],
+		"beat": ["1g9c818wSHQ"],
+		"guide": ["ZLNX2uLYX7M"],
+		"combo": ["GR09EhT644g"],
+		"discord": "wDMG7sQ6EE"
+	},
+	
+	"fox": {
+		"name": "fox",
+		"thumb_name": "fox",
+		"frame": "fox",
+		"stages": ["Opponents worst stage", "Tri plats can help with uair combos"],
+		"str": [
+			"Speed [The Rush Down Character] (don't throw out laggy moves and keep up with his pace)",
+			"Combo Game (di up and away, mix up di, preserve resources)",
+			"Up Smash Kill [Read / Set Up] (Don't play predicable / do the same thing over and over)"
+		],
+		"weak": [
+			"Very Light (can die at low %)",
+			"Linear Recovery (edge guard him)",
+			"Struggles To Kill [Needs Set Up / Hard Reads] (don't play predicable and you'll normaly kill him first)",
+			"Weak Throws [If Di Correctly]"
+		],
+		"notes": [
+			"Respect Aerials (sheild them then punish)",
+			"Has Reflector",
+			"Side B Will Not Go Through Sheild"
+		],
+		"beat": ["0WC4CUK8XFc"],
+		"guide": ["xVbrtGvncd8"],
+		"combo": ["Xa6e1g4wQ0k"],
+		"discord": "UsXQhYQSKx"
+	},
+	
+	"pikachu": {
+		"name": "pikachu",
+		"thumb_name": "pikachu",
+		"frame": "pikachu",
+		"stages": ["Kalos"],
+		"str": [
+			"Combos (break combos and di away, mix di)",
+			"Sheild Pressure (rely on movement, not sheild)",
+			"Can't Realy Be Ledge Guarded (hold center stage to reset neutral)",
+			"Edge Guarding (mix up recovery)"
+		],
+		"weak": [
+			"Light Weight (may die at early %)",
+			"Weak Reach"
+		],
+		"notes": [
+			"Has Projectile"
+		],
+		"beat": ["WncSgXJGf1Q"],
+		"guide": ["8TEYez3_OFk"],
+		"combo": ["1NeuHNVOq38"],
+		"discord": "UprygGD"
+	},
+	
+	"luigi": {
+		"name": "luigi",
+		"thumb_name": "luigi",
+		"frame": "luigi",
+		"str": [
+			"Combos [0->death] (di out, don't get grabed)",
+			"Back Throw Is Kill Throw",
+			"Out Of Sheild [Up B] (don't touch sheild, you may die)",
+			"Edge Guarding"
+		],
+		"weak": [
+			"Camping [Luigi Has Hard Time Approching] (use movement and pojectiles)",
+			"Recovery [Vertical Is Good, Horizontal Is Bad]"
+		],
+		"notes": [
+			"Space Properly And Use Movement To Not Get Grabed",
+			"Down B Is Invincible [Frames 4-8 On Ground, 1-7 In Air] (this move can kill too)"
+		],
+		"beat": ["tpB0cBVWjFU"],
+		"guide": ["E7e7fYu2pdM"],
+		"combo": ["yCVEXjLTzMw"],
+		"discord": "sx7JWub",
+		"stages": ["Smashville"]
+	},
+	
+	"ness": {
+		"name": "ness",
+		"thumb_name": "ness",
+		"frame": "ness",
+		"str": [
+			"Yoyo [Ledge Trapping] (recover fast / high, mash up b if hit)",
+			"Pk Fire (SDi out)",
+			"Ledge Guarding [Thunder]",
+			"Grab [Back Throw] (they WILL try grabing you if your over 100%, and you WILL die if they do)"
+		],
+		"weak": [
+			"Reflectors",
+			"Recovery (will likely air dodge as up b is easy to ledge guard)"
+		],
+		"notes": [
+			"Aerials Are Disjointed, Fast, Safe, And Powerful (anit air him)"
+		],
+		"beat": ["rf_OLKaxrQw"],
+		"guide": ["NEXnAsOfQ7g"],
+		"combo": ["GAGWXfIt-r8"],
+		"discord": "GXvBCuN",
+		"stages": ["Opponents worst stage (but no Lylat)"]
+	},
+	
+	"captain_falcon": {
+		"name": "captain falcon",
+		"thumb_name": "captain_falcon",
+		"frame": "captain_falcon",
+		"str": [
+			"Combo Game (mix up di and when you airdodge / attack)",
+			"Edge Guarding [Knee, Dair, Side B] (mix up recovery)",
+			"Out Of Sheild [Up B] (don't touch sheild)"
+		],
+		"weak": [
+			"Slow Smash Attacks (punish them)",
+			"Zoneing [Keep Him At Distance]",
+			"Recovery Is Linear"
+		],
+		"notes": [
+			"Tech If You Get Up B Below Ledge",
+			"You get hit with falcon punch, turn off the game and go outside lol"
+		],
+		"beat": ["AsQhvkBM6bY"],
+		"guide": ["xzE8m7gAs7E"],
+		"combo": ["UF9up1iCCok"],
+		"discord": "0XG2K9WbH8VAFd8p",
+		"stages": ["Battlefield", "Yoshi's Story", "Kalos"]
+	},
+	
+	"jigglypuff": {
+		"name": "jigglypuff",
+		"thumb_name": "jigglypuff",
+		"frame": "jigglypuff",
+		"str": [
+			"Air Control (hard to contest)",
+			"'Wall Of Pain' Off Stage (try not geting carried of stage with aerials)",
+			"Pound Lasts For Long Time And Does Big Sheild Damage (avoid and punish)",
+			"Sing (sheild then punish quickly or roll away {not in})"
+		],
+		"weak": [
+			"Light Weight [can di at low %]",
+			"Easy To Combo",
+			"Poor Range (disjoints & well spaced moves beat them)",
+			"Grabs Don't Combo Or Kill Until 300% (don't worry about being grabed)",
+			"Sheild Break Just Kills Them"
+		],
+		"notes": [
+			"5 Air Jumps",
+			"Fully Charged Rollout Can Break Sheild"
+		],
+		"beat": ["Uyr8sAYVCIg"],
+		"guide": ["TQWCraTA8MQ"],
+		"combo": ["ffpRK8LSLkY"],
+		"discord": "0Wj6QkUoh01KUVPn",
+		"stages": ["Battlefield", "Yoshi's Story", "Smashville"]
+	},
+	
 	"": {
 		"name": "",
 		"thumb_name": "",
 		"frame": "",
-		"stages": [],
 		"str": [
 			
 		],
@@ -138,9 +316,30 @@
 		"notes": [
 			
 		],
-		"beat": [],
-		"guide": [],
-		"combo": [],
-		"discord": ""
+		"beat": [""],
+		"guide": [""],
+		"combo": [""],
+		"discord": "",
+		"stages": [""]
+	},
+	
+	"": {
+		"name": "",
+		"thumb_name": "",
+		"frame": "",
+		"str": [
+			
+		],
+		"weak": [
+			
+		],
+		"notes": [
+			
+		],
+		"beat": [""],
+		"guide": [""],
+		"combo": [""],
+		"discord": "",
+		"stages": [""]
 	}
 }
