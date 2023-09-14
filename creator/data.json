@@ -19,9 +19,9 @@
 		"notes": [
 			
 		],
-		"beat": "ZGEXsiYu7ek",
-		"guide": "vKBM9B8CEBw",
-		"combo": "vKBM9B8CEBw",
+		"beat": ["ZGEXsiYu7ek"],
+		"guide": ["vKBM9B8CEBw"],
+		"combo": ["vKBM9B8CEBw"],
 		"discord": "xARdRQ3eGz"
 	},
 	
@@ -45,9 +45,9 @@
 			"Mash Grabs",
 			"Tech Stage Spikes"
 		],
-		"beat": "y4vtXM2vzug",
-		"guide": "",
-		"combo": "RctChRAw-GM",
+		"beat": ["y4vtXM2vzug"],
+		"guide": [],
+		"combo": ["RctChRAw-GM"],
 		"discord": "qMzMf8g"
 	},
 	
@@ -70,9 +70,9 @@
 		"notes": [
 			"Rush Them Down, Get Past Projectiles With Movment And Attack"
 		],
-		"beat": "zAyYPBDoCQ8",
-		"guide": "VlKkv5HSYVA",
-		"combo": "wToxMJRDKtU",
+		"beat": ["zAyYPBDoCQ8"],
+		"guide": ["VlKkv5HSYVA"],
+		"combo": ["wToxMJRDKtU"],
 		"discord": "Wynbrkd"
 	},
 	
@@ -93,9 +93,9 @@
 		"notes": [
 			"Respect Aerials and Long range grab"
 		],
-		"beat": "x88Fn6h8sXY",
-		"guide": "nW9AedeMeFw",
-		"combo": "vDr1GvW9PTM",
+		"beat": ["x88Fn6h8sXY"],
+		"guide": ["nW9AedeMeFw"],
+		"combo": ["vDr1GvW9PTM"],
 		"discord": "b69G8H6"
 	},
 	
@@ -118,9 +118,9 @@
 		"notes": [
 			"Super Armour On Double Jump"
 		],
-		"beat": "SqKDVXvzN6I",
-		"guide": "zbel6sAHzDM",
-		"combo": "3a-NFx897ls",
+		"beat": ["SqKDVXvzN6I"],
+		"guide": ["zbel6sAHzDM"],
+		"combo": ["3a-NFx897ls"],
 		"discord": "QKanWPU"
 	},
 	
@@ -138,9 +138,9 @@
 		"notes": [
 			
 		],
-		"beat": "",
-		"guide": "",
-		"combo": "",
+		"beat": [],
+		"guide": [],
+		"combo": [],
 		"discord": ""
 	}
 }

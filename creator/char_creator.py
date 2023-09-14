@@ -4,6 +4,7 @@ info_base = """<html>
 		<link rel="stylesheet" href="./../css/dark-colors.css">
 		<link rel="stylesheet" href="./../css/dark-mode.css">
 		<link rel="stylesheet" href="./../css/main.css">
+		<link rel="icon" type="image/x-icon" href="./../res/icon.ico">
 	</head>
 
 	<body>
@@ -44,11 +45,7 @@ info_base = """<html>
 			</ul>
 			
 			<h1>Video on How To Beat Them</h1>
-			<iframe width="1000px" height = "500px"
-				src="https://www.youtube.com/embed/%VIDEO%">
-			</iframe>
-			
-			<!--https://www.youtube.com/watch?v=29c6-AJr8LY-->
+			%VIDEO%
 			
 			<h1>Ultimate Frame-Data</h1>
 			<center><embed type="text/html" src="https://ultimateframedata.com/%FRAMEDATA%" width="1000px" height="15250px"></center>
@@ -63,6 +60,7 @@ play_base = """<html>
 		<link rel="stylesheet" href="./../css/dark-colors.css">
 		<link rel="stylesheet" href="./../css/dark-mode.css">
 		<link rel="stylesheet" href="./../css/main.css">
+		<link rel="icon" type="image/x-icon" href="./../res/icon.ico">
 	</head>
 
 	<body>
@@ -83,16 +81,10 @@ play_base = """<html>
 		</center>
 		<div class="main-content">
 			<h2>General Guide</h2>
-			<iframe width="640" height = "400"
-				src="https://www.youtube.com/embed/%GUIDE%">
-			</iframe>
-			<br>
+			%GUIDE%
 			
 			<h1>Combo Guide</h1>
-			<iframe width="640" height = "400"
-				src="https://www.youtube.com/embed/%COMBO%">
-			</iframe>
-			<br>
+			%COMBO%
 			
 			<h2>Character Discord</h2>
 			<a href="https://discord.com/invite/%DISCORD%">https://discord.com/invite/%DISCORD%</a>
@@ -101,6 +93,11 @@ play_base = """<html>
 </html>
 """
 
+def video(id_):
+    return """<iframe width="640" height = "400" src="https://www.youtube.com/embed/"></iframe><br>"""
+
+			
+#<!--https://www.youtube.com/watch?v=29c6-AJr8LY-->
 
 import json
 
@@ -111,7 +108,7 @@ for char in data:
     
     d = data[char]
 
-    info = info_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%FRAMEDATA%", d["frame"]).replace("%VIDEO%", d["beat"])
+    info = info_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%FRAMEDATA%", d["frame"]).replace("%VIDEO%", "".join([video(v) for v in d["beat"]]))
     if d["stages"]:
         info = info.replace("%STAGES%", "<li>" + ("</li><li>".join(d["stages"])) + "</li>")
     else:
@@ -133,7 +130,7 @@ for char in data:
         info = info.replace("%NOTES%", "None")
 
     
-    play = play_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%GUIDE%", d["guide"]).replace("%COMBO%", d["combo"]).replace("%DISCORD%", d["discord"])
+    play = play_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%GUIDE%", "".join([video(v) for v in d["guide"]])).replace("%COMBO%", "".join([video(v) for v in d["combo"]])).replace("%DISCORD%", d["discord"])
 
     with open("./play/"+char+".html", "w") as fp:
         fp.write(play)
