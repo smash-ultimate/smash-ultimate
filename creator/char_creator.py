@@ -48,8 +48,8 @@ info_base = """<html>
 			<h1>Video on How To Beat Them</h1>
 			%VIDEO%
 			
-			<h1>Ultimate Frame-Data</h1>
-			<center><embed type="text/html" src="https://ultimateframedata.com/%FRAMEDATA%" width="1000px" height="15250px"></center>
+			<h1><a href="#framedata">Ultimate Frame-Data</a></h1>
+			<center><embed type="text/html" id="framedata" src="https://ultimateframedata.com/%FRAMEDATA%" width="1000px" height="100%"></center>
 		</div>
 	</body>
 </html>
@@ -110,29 +110,29 @@ for char in data:
     
     d = data[char]
 
-    info = info_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%FRAMEDATA%", d["frame"]).replace("%VIDEO%", "".join([video(v) for v in d["beat"]]))
+    info = info_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%FRAMEDATA%", d["frame"]).replace("%VIDEO%", "\n".join([video(v) for v in d["beat"]]))
     if d["stages"]:
-        info = info.replace("%STAGES%", "<li>" + ("</li><li>".join(d["stages"])) + "</li>")
+        info = info.replace("%STAGES%", "<li>" + ("</li>\n<li>".join(d["stages"])) + "</li>")
     else:
         info = info.replace("%STAGES%", "None")
     
     if d["str"]:
-        info = info.replace("%STR%", "<li>" + ("</li><li>".join(d["str"])) + "</li>")
+        info = info.replace("%STR%", "<li>" + ("</li>\n<li>".join(d["str"])) + "</li>")
     else:
         info = info.replace("%STR%", "None")
     
     if d["weak"]:
-        info = info.replace("%WEAK%", "<li>" + ("</li><li>".join(d["weak"])) + "</li>")
+        info = info.replace("%WEAK%", "<li>" + ("</li>\n<li>".join(d["weak"])) + "</li>")
     else:
         info = info.replace("%WEAK%", "None")
     
     if d["notes"]:
-        info = info.replace("%NOTES%", "<li>" + ("</li><li>".join(d["notes"])) + "</li>")
+        info = info.replace("%NOTES%", "<li>" + ("</li>\n<li>".join(d["notes"])) + "</li>")
     else:
         info = info.replace("%NOTES%", "None")
 
     
-    play = play_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%GUIDE%", "".join([video(v) for v in d["guide"]])).replace("%COMBO%", "".join([video(v) for v in d["combo"]])).replace("%DISCORD%", d["discord"])
+    play = play_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%GUIDE%", "\n".join([video(v) for v in d["guide"]])).replace("%COMBO%", "\n".join([video(v) for v in d["combo"]])).replace("%DISCORD%", d["discord"])
 
     with open("./play/"+char+".html", "w") as fp:
         fp.write(play)

@@ -193,7 +193,8 @@
 			"Weak Reach"
 		],
 		"notes": [
-			"Has Projectile"
+			"Has Projectile",
+			"Kick This Stupid Yellow Rat"
 		],
 		"beat": ["WncSgXJGf1Q"],
 		"guide": ["8TEYez3_OFk"],
@@ -303,24 +304,794 @@
 		"stages": ["Battlefield", "Yoshi's Story", "Smashville"]
 	},
 	
-	"": {
-		"name": "",
-		"thumb_name": "",
-		"frame": "",
+	"peach": {
+		"name": "peach / daisy",
+		"thumb_name": "peach",
+		"frame": "peach",
 		"str": [
-			
+			"Float (anit air them)",
+			"Turnips (don't airdodge off stage)",
+			"Combos"
 		],
 		"weak": [
-			
+			"Juggleling [Slow Air Speed]",
+			"Light Character (may die at lower %)",
+			"Short Reach"
+		],
+		"notes": [
+			"Can Float For 2.5 Seconds"
+		],
+		"beat": ["cytcgvfv0sU"],
+		"guide": ["oUrertW84UI"],
+		"combo": ["1qyd1H8qb4s", "qKEmkj6186w"],
+		"discord": "gPq3gC4g2f",
+		"stages": ["Kalos", "Final Destination", "Smashville"]
+	},
+	
+	"bowser": {
+		"name": "bowser",
+		"thumb_name": "bowser",
+		"frame": "bowser",
+		"str": [
+			"Running Speed",
+			"Edge Guarding With Fair (try and avoid it)",
+			"Out Of Sheild (realy don't touch his sheild, one of the best oos)",
+			"Ledge Trapping (mix-up options off of ledge)"
+		],
+		"weak": [
+			"Combos (big hurt box)",
+			"Zoneing",
+			"Juggleling (watch up for dair and down b)",
+			"Poor Vertical Recovery"
+		],
+		"notes": [
+			"Command Grab [Can Suicide Kill]",
+			"Tough Guy [Doesn't Flintch From Weak Moves]",
+			"Smash Attacks Have Super Armour"
+		],
+		"beat": ["gaDUbVYJIFA"],
+		"guide": ["J7whNfvG5QE"],
+		"combo": ["VYpqKBAN6zQ"],
+		"discord": "0hwgnNR34wz6cSgX",
+		"stages": ["Opponents worst stage"]
+	},
+	
+	"ice_climbers": {
+		"name": "ice climbers",
+		"thumb_name": "ice_climbers",
+		"frame": "ice_climbers",
+		"str": [
+			"2 vs 1 (don't throw laggy moves out, might hit 1, but the other can punish)",
+			"Grab Game"
+		],
+		"weak": [
+			"Solo Popo (can't recover)",
+			"Projectiles",
+			"Shortest Grab In The Game"
+		],
+		"notes": [
+			"Can't Grab Them As Will Only Grab One Of Them, Allowing The Other To Attack"
+		],
+		"beat": ["Rh-ueKwv_gE"],
+		"guide": ["1qJsMpK9_Yw", "Y2uVdqAVoUQ"],
+		"combo": ["MzWF905qVbs"],
+		"discord": "6ha6HVF",
+		"stages": ["Battlefield", "Smashville", "Final Destination", "Avoid Town And City & Kalos"]
+	},
+	
+	"sheik": {
+		"name": "sheik",
+		"thumb_name": "sheik",
+		"frame": "sheik",
+		"str": [
+			"Fast Rushdown",
+			"Combo Game",
+			"Grabs Lead Into Combos"
+		],
+		"weak": [
+			"Low Damage (combos only do like 20%)",
+			"Light Weight (can die a lower %)",
+			"Poor Range"
 		],
 		"notes": [
 			
 		],
+		"beat": ["Y_aqlIw2p8E"],
+		"guide": ["t9UmdEia_uw"],
+		"combo": ["LlrE8H8tY84"],
+		"discord": "MSbMHrY",
+		"stages": ["Kalos", "Final Destination"]
+	},
+	
+	"zelda": {
+		"name": "zelda",
+		"thumb_name": "zelda",
+		"frame": "zelda",
+		"str": [
+			"Ledge Trapping [With Phantom Knight]",
+			"Edge Guarding",
+			"Recovery (though if they up b onto stage, punish them)"
+		],
+		"weak": [
+			"Can Relfect Phantom Knight (she can reflect it back)",
+			"Inconsistency With Aerials (may not sweetspot them)",
+			"Slow And Light",
+			"Predicable"
+		],
+		"notes": [
+			"Relfector",
+			"Neutral B Is Intangible Frames 4-13",
+			"Play Bait And Punish To Beat Her"
+		],
+		"beat": ["NzV8rLbSPVc"],
+		"guide": ["Ilb1Q_Cso8E"],
+		"combo": ["WzcYkOTUWJc"],
+		"discord": "FTw5cVD",
+		"stages": ["Final Destination", "Smashville", "Battlefield"]
+	},
+	
+	"dr_mario": {
+		"name": "dr. mario",
+		"thumb_name": "dr_mario",
+		"frame": "dr_mario",
+		"str": [
+			"Pojectile Approch",
+			"Combos",
+			"Out Of Sheild [Up Smash] (don't touch sheild)",
+			"Edge Guarding (mix up recovery)",
+			"Back Throw Kills"
+		],
+		"weak": [
+			"Reach",
+			"Recovery (edge guard them)"
+		],
+		"notes": [
+			"Projectile", 
+			"Reflector"
+		],
+		"beat": ["ZGEXsiYu7ek"],
+		"guide": ["dUCI1G_jKyk"],
+		"combo": ["pb-5b8TsVFs"],
+		"discord": "pNk9UzP",
+		"stages": ["Final Destination", "PS2"]
+	},
+	
+	"pichu": {
+		"name": "pichu",
+		"thumb_name": "pichu",
+		"frame": "pichu",
+		"str": [
+			"Combos",
+			"Hard Too Hit",
+			"Grab Game",
+			"Edge Guarding"
+		],
+		"weak": [
+			"Very Light (will die at lower %)",
+			"Short Range",
+			"Camping"
+		],
+		"notes": [
+			"Eletric Attacks Do More Damage Than Pikachu But Damage Pichu"
+		],
+		"beat": ["fA6CvEex4Oo"],
+		"guide": ["Q_r9_FveHzU", "X-pIFGsO1R8"],
+		"combo": ["sdadpkTWFwk"],
+		"discord": "RgcFwQB",
+		"stages": ["Kalos"]
+	},
+	
+	"flaco": {
+		"name": "flaco",
+		"thumb_name": "falco",
+		"frame": "falco",
+		"str": [
+			"Combos [Up Tilt] (mix up di)",
+			"Throws Can Combo (don't get grabed)",
+			"Edge Guarding"
+		],
+		"weak": [
+			"Light Weight (can die at lower %)",
+			"Recovery"
+		],
+		"notes": [
+			"Reflector",
+			"Projectile",
+			"Side B Wont Go Through Sheild"
+		],
+		"beat": ["Jx3Z512mKYA"],
+		"guide": ["YsLJssA01b4"],
+		"combo": ["E6n332KjQGI"],
+		"discord": "HptPZcT",
+		"stages": ["Battlefield", "Yoshi's Story"]
+	},
+	
+	"marth": {
+		"name": "marth / lucina",
+		"thumb_name": "marth",
+		"frame": "marth",
+		"str": [
+			"Sheild Pressure [Neutral B Can Break Slightly Damaged Sheilds] (don't sheild predictably)",
+			"Edge Guarding [Can Counter {Down B} Recoveries] (mix up recovery)",
+			"Out Of Sheild [Up B, Is Invincible] (don't land unsafe aerials on sheild)"
+		],
+		"weak": [
+			"Zoneing",
+			"Poor Throw Game",
+			"Recovery [Only Have Up B that doesn't travel very far horizontaly]"
+		],
+		"notes": [
+			"Has Counter",
+			"Marth Has Tipper [Tip Of Sword Does More Damage]"
+		],
+		"beat": ["9WgTGrwB0EU"],
+		"guide": ["WBTHnHqh3qk"],
+		"combo": ["A-hFvPkuqlA"],
+		"discord": "0bQ68KVbo2Pt5ISy",
+		"stages": ["Battlefield", "Smashville"]
+	},
+	
+	"young_link": {
+		"name": "young link",
+		"thumb_name": "young_link",
+		"frame": "young_link",
+		"str": [
+			"Nair",
+			"Projectiles (respect them)",
+			"Bomb",
+			"Out of sheild [Up B] (don't touch sheild)"
+		],
+		"weak": [
+			"Laggy Moves",
+			"Reflectors",
+			"Recovery"
+		],
+		"notes": [
+			"Long Range Grab",
+			"Rush Them Down, Get Past Projectiles With Movment And Attack"
+		],
+		"beat": ["zAyYPBDoCQ8"],
+		"guide": ["WSep92_Z4CU"],
+		"combo": ["BYIZBipUIIU"],
+		"discord": "zxC8Vzr",
+		"stages": ["PS2", "Kalos", "Town and City"]
+	},
+	
+	"ganondorf": {
+		"name": "ganondorf",
+		"thumb_name": "ganondorf",
+		"frame": "ganondorf",
+		"str": [
+			"Range [Smash Attacks Have A Surprising Long Range] (bait them then punish, do not airdodge near him)",
+			"Quick Tilts & Jab",
+			"Stomp [Dair] (mix up recovery)"
+		],
+		"weak": [
+			"Recovery (don't get stage spiked by up b, be ready to tech)",
+			"Slow Movement",
+			"Combos",
+			"Projectiles",
+			"Camping"
+		],
+		"notes": [
+			"Has Command Grab",
+			"Can Suicide Kill",
+			"Neutral B Has Super Armour"
+		],
+		"beat": ["K6hkoBu6A9k"],
+		"guide": ["sbCjHDH1G78"],
+		"combo": ["CICmAA_G-Fk"],
+		"discord": "qhtPMHY",
+		"stages": ["Avoid large stages"]
+	},
+	
+	"mewtwo": {
+		"name": "mewtwo",
+		"thumb_name": "mewtwo",
+		"frame": "mewtwo",
+		"str": [
+			"Kill Power",
+			"Kill Throws [Up Throw, Back Throw] (don't get grabed at high %)",
+			"Edge Guarding (mix up recovery)",
+			"Ledge Trapping",
+			"Out Of Sheild [Nair]",
+			"Down B Will Put You Into Sheild Break Animation [In Air Will Push You Back; Invincible Frame 10-16] (can reflect it)",
+			"Recovery"
+		],
+		"weak": [
+			"Low Weight (can die at low %)",
+			"Combos",
+			"Can Be Juggled Due to Air Physics",
+			"Tail Has Hitbox",
+			"Struggle To KO Without Setups / Hard Reads"
+		],
+		"notes": [
+			"Has A Projectile",
+			"Has A Reflector",
+			"Has A Command 'Grab' [side b will put you in a 25/25/25/25 in the air between jump, airdoge, attack, and do nothing]"
+		],
+		"beat": ["VcEOuqVmaUI"],
+		"guide": ["8xG1mqBSL7Q"],
+		"combo": ["7X4FQh_4Ars"],
+		"discord": "AUVSYqb",
+		"stages": ["Town and City"]
+	},
+	
+	"roy": {
+		"name": "roy / chrome",
+		"thumb_name": "roy",
+		"frame": "roy",
+		"str": [
+			"Side B At Ledge [Stronger Than Cloud's Limit Cross Slash]",
+			"Combos [Jab Is Very Good]",
+			"Rushdown"
+		],
+		"weak": [
+			"Recovery",
+			"Camping",
+			"Projectiles",
+			"Laggy Moves [Mostly Specials]"
+		],
+		"notes": [
+			"Has Counter",
+			"Roy Has More Damage Closer To Hilt"
+		],
+		"beat": ["ZMPT1JGoGrs"],
+		"guide": ["FPYpz1haD44", "fn0v1UUpI18"],
+		"combo": ["5GQar_UbMH4", "fitUgRJ-BM4"],
+		"discord": "dgJrPSK",
+		"stages": ["Town and City", "Smashville"]
+	},
+	
+	"mr_game": {
+		"name": "mr. game and watch",
+		"thumb_name": "mr_game_and_watch",
+		"frame": "mr_game_and_watch",
+		"str": [
+			"Out Of Sheild [Has The Best Up B In The Game] (DO NOT touch his sheild)",
+			"Recovery [best up b in game] (just ledge trap him, don't try ledge guarding)",
+			"Combos",
+			"Edge Guarding (mix it up)",
+			"Ledge Trapping [Bacon] (mix it up)",
+			"Down B Invalidates Projectiles [Full Charged Can Kill At Realy Low %] (don't shoot projectiles at him)"
+		],
+		"weak": [
+			"Light Weight (can die at low %)",
+			"Low Range",
+			"No Kill Throws"
+		],
+		"notes": [
+			"Absorber / Reflector"
+		],
+		"beat": ["_UgVrXWL08I"],
+		"guide": ["BAleHUED4iA"],
+		"combo": ["WjvMnuujYZo"],
+		"discord": "fzWuqZ8",
+		"stages": ["Yoshi's Story"]
+	},
+	
+	"meta_knight": {
+		"name": "meta knight",
+		"thumb_name": "meta_knight",
+		"frame": "meta_knight",
+		"str": [
+			"Ladder Combos (started by dash attack and dash grab; di towards meta knight)",
+			"Excellent Recovery",
+			"Edge Guarding",
+			"Rushdown playstyle [With Mutiple Jumps]"
+		],
+		"weak": [
+			"Speicals Send Into Freefall Off Stage",
+			"Light Weight (may die a lower %)",
+			"Struggles to KO",
+			"Poor Range",
+			"Zoneing"
+		],
+		"notes": [
+			
+		],
+		"beat": ["lbJKShLEua8"],
+		"guide": ["81H83GAmi70"],
+		"combo": ["pHfWL_bdKz8"],
+		"discord": "raEcZ8f",
+		"stages": ["Yoshi's Story", "Any Stages With Lower Blastzones"]
+	},
+	
+	"pit": {
+		"name": "pit",
+		"thumb_name": "pit",
+		"frame": "pit",
+		"str": [
+			"Combos (di away)",
+			"Air Game",
+			"Grab Game",
+			"Side B Has: Super Armour, Reflector, And Kill Power (sheild it)"
+		],
+		"weak": [
+			"Struggle To KO",
+			"Landing (anti air them)",
+			"Inconsistency [Muti-Hit Attacks Can Be Escaped Using Sdi)",
+			"Recovery (edge guard them)"
+		],
+		"notes": [
+			"Down B & Side B Is Relfector",
+			"Side B Has Super Armour"
+		],
+		"beat": ["mTLolct5KSo"],
+		"guide": ["pfp6c3xtW8Y"],
+		"combo": ["6EeGRNVUItM"],
+		"discord": "gJHHHR4urr",
+		"stages": ["Mabey Platforms?"]
+	},
+	
+	"zss": {
+		"name": "zero suit samus",
+		"thumb_name": "zero_suit_samus",
+		"frame": "zero_suit_samus",
+		"str": [
+			"Mobility [Hit And Run Playstyle]",
+			"Down B [Pretty Much A 3rd Jump / Second Airdoge; Invincable Frame 3-12; can spike] (has lots of endlag)",
+			"Good At Tech Chaseing (mix up options)",
+			"Juggleing"
+		],
+		"weak": [
+			"Poor Defence",
+			"Ground Game",
+			"Grab Game",
+			"Predicable"
+		],
+		"notes": [
+			"When Juggeling Watch Out For Dair",
+			"Long Range Grab"
+		],
+		"beat": ["GI-OnFr27hE"],
+		"guide": ["xs9dqqKJXio"],
+		"combo": ["FPikajI4CL8"],
+		"discord": "up3dbCf",
+		"stages": ["Tri Plats"]
+	},
+	
+	"wario": {
+		"name": "wario",
+		"thumb_name": "wario",
+		"frame": "wario",
+		"str": [
+			"Waft",
+			"Combos",
+			"Bike (can hit him)"
+		],
+		"weak": [
+			"Range (don't let him charge waft though)",
+			"Struggles To Approch [Wario Plays Bait And Punish Game]"
+		],
+		"notes": [
+			"Command Grab",
+			"Your pretty much playing a 2 stock game"
+		],
+		"beat": ["t7Ycsc9LJGA"],
+		"guide": ["20__itHQrvo"],
+		"combo": ["odU--iAPys8"],
+		"discord": "HRQWSZK",
+		"stages": ["Opponents worst stage"]
+	},
+	
+	"snake": {
+		"name": "snake",
+		"thumb_name": "snake",
+		"frame": "snake",
+		"str": [
+			"C4 (keep strack of it; can throw it below him)",
+			"Edge Guarding [Side B] (mix up recovery)",
+			"Ledge Trapping (be patient)",
+			"Up Tilt Kill"
+		],
+		"weak": [
+			"Recovery (hit it with hard hit)",
+			"Rushdown (don't give him room to breath)"
+		],
+		"notes": [
+			"Projectiles",
+			"Up B Will Hit You If You Wait A Ledge"
+		],
+		"beat": ["Ym4wP569ifk"],
+		"guide": ["fGqUGRaYqUg"],
+		"combo": ["t4sMQUVukGg"],
+		"discord": "3BXATDr",
+		"stages": ["Battlefield", "PS2"]
+	},
+	
+	"ike": {
+		"name": "ike",
+		"thumb_name": "ike",
+		"frame": "ike",
+		"str": [
+			"Air Game [Nair] (anit-air him)",
+			"Strong Moves"
+		],
+		"weak": [
+			"Linear Gameplan [Just Going To Spam Nair]",
+			"Predicable Approch Due To Slow Speed",
+			"Recovery",
+			"Laggy Moves"
+		],
+		"notes": [
+			
+		],
+		"beat": ["xAF4jPJcFAg"],
+		"guide": ["c_p-aiD1gTw"],
+		"combo": ["C7n-ROhhSWs"],
+		"discord": "ggHCGgM",
+		"stages": ["Battlefield", "Yoshi's Story", "PS2"]
+	},
+	
+	"pt": {
+		"name": "pokemon trainer",
+		"thumb_name": "pokemon_trainer",
+		"frame": "pokemon_trainer",
+		"str": [
+			"Combo Game [Aerials]",
+			"Good Grab Game [Grab Combos]",
+			"Squrtle: Hard To Hit",
+			"Squrtle: Water Gun Can Gimp Recoveries",
+			"Ivsaw: Projectile",
+			"Ivsaw: Edge Guarding [Dair]",
+			"Charazard: Fast On Ground",
+			"Charazard: Up smash",
+			"Charazard: Flame Breath",
+			"Charazard: Flare Blits (Just Sheild)"
+		],
+		"weak": [
+			"Squrtle: Light Weight",
+			"Squrtle: Can't KO [can only back throw / smash]",
+			"Squrtle: Recovery",
+			"Ivsaw: Slow (rush him down)",
+			"Ivsaw: Predicable Recovery",
+			"Charazard: Laggy Moves",
+			"Charazard: Has Sower Spots [Inconsistency]",
+			"Charazard: Big Hurt Box (combo him)",
+			"Charazard: Relies On Hard Reads (mix up)"
+
+		],
+		"notes": [
+			"Change [Down B] Has Invincibility"
+		],
+		"beat": ["hhCzz_dltKw"],
+		"guide": ["PzThnJQ_QsU"],
+		"combo": ["8WgPxcCBseo"],
+		"discord": "tzNV4hF",
+		"stages": ["PS2", "Yoshi's Story", "Battlefield"]
+	},
+	
+	"diddy_kong": {
+		"name": "diddy kong",
+		"thumb_name": "diddy_kong",
+		"frame": "diddy_kong",
+		"str": [
+			"BANNANA (see video below for counter-play)",
+			"Sheild Conditioning (don't hold sheild, diddy has command grab)",
+			"Combos",
+			"Grab Game (don't hold sheild)"
+		],
+		"weak": [
+			"Recovery",
+			"Light Weight (may KO at lower %)",
+			"Needs Setups To KO [May Live To Higher %]"
+		],
+		"notes": [
+			"Mix Up Every Thing (if you get predected / read, you will die)",
+			"Command Grab",
+			"This Monkey Is A Bitch"
+		],
+		"beat": ["zZh8kSCKRzY"],
+		"guide": ["3oAbjiR-Bj0"],
+		"combo": ["IjkRo39yGDw"],
+		"discord": "9trzxan",
+		"stages": ["Final Destination", "Town And City", "Kalos"]
+	},
+	
+	"lucas": {
+		"name": "lucas",
+		"thumb_name": "lucas",
+		"frame": "lucas",
+		"str": [
+			"Edge Guarding (recovery fast; mix up recovery)",
+			"Grab Game"
+		],
+		"weak": [
+			"Slow Movement [Can't Rushdown] (bad approch)",
+			"Reflector",
+			"Explotable Recovery (not bad, just explotable)"
+		],
+		"notes": [
+			"Relfector [FSmash]",
+			"Absorber"
+		],
+		"beat": ["sOy8qxGAHgc"],
+		"guide": ["QsokNhO2gBE"],
+		"combo": ["AQOnRHerefA"],
+		"discord": "Y5fjHed",
+		"stages": ["Avoid Smashville"]
+	},
+	
+	"sonic": {
+		"name": "sonic",
+		"thumb_name": "sonic",
+		"frame": "sonic",
+		"str": [
+			"Speed [can punish from anywhere on stage]",
+			"Spin Dash (if blue, can sheild and punish; if yellow, will go through sheild)",
+			"Edge Guarding (don't do anything predicable; mix up your recovery)",
+			"Grab Game",
+			"Recovery"
+		],
+		"weak": [
+			"Struggle To KO",
+			"Light Weight (can die at lower %)",
+			"Predicable",
+			"Risky Moves"
+		],
+		"notes": [
+			
+		],
+		"beat": ["Q-9_l-1ZVTY"],
+		"guide": ["31goc0UCTz8"],
+		"combo": ["sLWTJvFXe3Q"],
+		"discord": "z24Autr",
+		"stages": ["Town and City", "Kalos"]
+	},
+	
+	"king_dedede": {
+		"name": "king dedede",
+		"thumb_name": "king_dedede",
+		"frame": "king_dedede",
+		"str": [
+			"Gordoes (hit it; sheild it; avoid it; mix it up {mind games})",
+			"Ledge Trapping (see video for counter)",
+			"Hammer [Has Super Armour On Release; Can Charge Infinatly] (hit with projectile or bait & punish)"
+		],
+		"weak": [
+			"Big And Slow -> Combo Him",
+			"Bad Approch [Will Often Bait And Punish With Mutiple Jumps] (anti-air him)",
+			"Bad Horizontal Recovery"
+		],
+		"notes": [
+			"Reflector [Inhale] (sheild it)"
+		],
+		"beat": ["1SXDFvyJjCs"],
+		"guide": ["u4jA4Xn6Cc0"],
+		"combo": ["EqnTT7ysXRg"],
+		"discord": "fccCz2G",
+		"stages": ["Lylat"]
+	},
+	
+	"olimar": {
+		"name": "olimar",
+		"thumb_name": "olimar",
+		"frame": "olimar",
+		"str": [
+			"Pikmin (see video for quick summary)",
+			"Grab Range",
+			"Kill Grab"
+		],
+		"weak": [
+			"Agressive Playstyle (rush him down; stop him from getting pikmin)",
+			"Light Weight (can die at low %)",
+			"Recovery (no hit boxes - becarefull of mix ups)"
+		],
+		"notes": [
+			"Pikmin Are Projecti;es (reflect his moves {relfect fsmash lol})"
+		],
+		"beat": ["Z-oDomb23HY"],
+		"guide": ["cVZvBWpWERo"],
+		"combo": ["1Wd1Dh6lhsY"],
+		"discord": "GDpDJzK",
+		"stages": ["Final Destination", "Kalos"]
+	},
+	
+	"lucario": {
+		"name": "lucario",
+		"thumb_name": "lucario",
+		"frame": "lucario",
+		"str": [
+			"Aura [Caps At 190% = 1.67x Damage]",
+			"Juggeling (di up and away)"
+		],
+		"weak": [
+			"Aura [Starts At 0.66x Damage]",
+			"Inconsistency",
+			"Recovery (with more aura, becomes hard to control)"
+		],
+		"notes": [
+			"Side B Is A Command Grab And A Projectile",
+			"Can 2 Frame With Aura Sphere",
+			"Has A Counter"
+		],
+		"beat": ["fzLFNRnvILU"],
+		"guide": ["DiwNn34LEpQ"],
+		"combo": ["IBbtNNL7ggA"],
+		"discord": "ZvRt7CD",
+		"stages": ["Kalos", "Avoid Smashville"]
+	},
+	
+	"rob": {
+		"name": "rob",
+		"thumb_name": "rob",
+		"frame": "rob",
+		"str": [
+			"Down Tilt [Combos; Sheild Pokes]",
+			"Very Good Aerials (though can be parried as long startup)",
+			"Gyro / Setups",
+			"Ledge Trapping",
+			"Grabs (up throw kills; down throw berries)"
+		],
+		"weak": [
+			"Combos",
+			"Needs Setups To Kill Reliably (if your playing well)"
+		],
+		"notes": [
+			"Spin [Side B] Is A Reflector"
+		],
 		"beat": [""],
-		"guide": [""],
-		"combo": [""],
-		"discord": "",
-		"stages": [""]
+		"guide": ["asFawCI6oi8"],
+		"combo": ["upmeN9cdpNA"],
+		"discord": "FkSQVBp",
+		"stages": ["Opponents worst stage"]
+	},
+	
+	"toon_link": {
+		"name": "toon link",
+		"thumb_name": "toon_link",
+		"frame": "toon_link",
+		"stages": ["Opponents worst stage"],
+		"str": [
+			"Nair",
+			"Projectiles (respect them)",
+			"Bomb",
+			"Out of sheild [Up B] (don't touch sheild)"
+		],
+		"weak": [
+			"Laggy Moves",
+			"Reflectors",
+			"Recovery"
+		],
+		"notes": [
+			"Rush Them Down, Get Past Projectiles With Movment And Attack",
+			"Has A Projectile",
+			"Has A Reflector"
+		],
+		"beat": ["zAyYPBDoCQ8"],
+		"guide": ["YDYO5vVrsk8"],
+		"combo": ["D0Ml1w6rUmo"],
+		"discord": "uvGBcTA",
+		"stages": ["Town and City", "Battlefield"]
+	},
+	
+	"wolf": {
+		"name": "wolf",
+		"thumb_name": "wolf",
+		"frame": "wolf",
+		"str": [
+			"Blaster Controls Neutral",
+			"Up Smash OOS",
+			"Combos",
+			"Edge Guarding",
+			"Ledge Trapping",
+			"Grab Game [Combos At Low %; Kill Throw At 130%]",
+			"Wolf Flash If You Play Too Predictably (has alot of end lag, so punish it)"
+		],
+		"weak": [
+			"Combos",
+			"Recovery (becarefull, wolf flash can spike you)"
+		],
+		"notes": [
+			"Has A Projectile",
+			"Has A Reflector"
+		],
+		"beat": ["gOTl4SKfDjY"],
+		"guide": ["Km7MSZU4gTg"],
+		"combo": ["3BqjrhZVowY"],
+		"discord": "mmE4NgS",
+		"stages": ["Opponents worst stage"]
 	},
 	
 	"": {
