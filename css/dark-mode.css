@@ -1,4 +1,4 @@
 * {
-	color: var(--text-color-fg) !important;
-	background-color: var(--text-color-bg) !important;
+	color: var(--text-color-fg);
+	background-color: var(--text-color-bg);
 }

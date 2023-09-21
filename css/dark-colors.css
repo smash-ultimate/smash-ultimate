@@ -7,7 +7,7 @@ html  {
 @media screen and (prefers-color-scheme: light) {
 	html  {
 		--text-color-fg: #000000;
-		--text-color-bg: #DDDDDD;
+		--text-color-bg: #AAAAAA;
 	}
 }
 
