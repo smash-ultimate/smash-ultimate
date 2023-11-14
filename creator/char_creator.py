@@ -18,6 +18,8 @@ info_base = """<html>
 				<a href="./../main.html" style="background-color:black;"> <button class="bar-button">Find A Main</button></a>
 				<a href="./../basics.html" style="background-color:black;"> <button class="bar-button">How TO Smash</button></a>
 				<a href="./../stages.html" style="background-color:black;"> <button class="bar-button">Legal Stages</button></a>
+				<a href="https://ultimateframedata.com/smash" style="background-color:black;"> <button class="bar-button">Frame Data</button></a>
+				<a href="https://smasharchives.com/character" style="background-color:black;"> <button class="bar-button">MatchUp Vods</button></a>
 			</center>
 			
 			<center>
@@ -48,8 +50,9 @@ info_base = """<html>
 			<h1>Video on How To Beat Them</h1>
 			%VIDEO%
 			
-			<h1><a href="#framedata">Ultimate Frame-Data</a></h1>
-			<center><embed type="text/html" id="framedata" src="https://ultimateframedata.com/%FRAMEDATA%" width="1000px" height="100%"></center>
+			<h1><a href="https://ultimateframedata.com/%FRAMEDATA%">Ultimate Frame-Data</a></h1>
+			<h1><a href="%MU%">Match Up Vods</a></h1>
+			<!--<center><embed id="framedata" src="https://ultimateframedata.com/%FRAMEDATA%" width="1000px" height="100%"></embed></center>-->
 		</div>
 	</body>
 </html>
@@ -75,6 +78,8 @@ play_base = """<html>
 				<a href="./../main.html" style="background-color:black;"> <button class="bar-button">Find A Main</button></a>
 				<a href="./../basics.html" style="background-color:black;"> <button class="bar-button">How TO Smash</button></a>
 				<a href="./../stages.html" style="background-color:black;"> <button class="bar-button">Legal Stages</button></a>
+				<a href="https://ultimateframedata.com/smash" style="background-color:black;"> <button class="bar-button">Frame Data</button></a>
+				<a href="https://smasharchives.com/character" style="background-color:black;"> <button class="bar-button">MatchUp Vods</button></a>
 			</center>
 			
 			<center>
@@ -109,8 +114,17 @@ for char in data:
     if not char: continue
     
     d = data[char]
+    id_ = list(data).index(char) + 1
 
-    info = info_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%FRAMEDATA%", d["frame"]).replace("%VIDEO%", "\n".join([video(v) for v in d["beat"]]))
+    info = (
+        info_base
+        .replace("%NAME%", d["name"])
+        .replace("%MU%", "https://smasharchives.com/character/"+str(id_))
+        .replace("%THUMB_NAME%", d["thumb_name"])
+        .replace("%FRAMEDATA%", d["frame"])
+        .replace("%VIDEO%", "\n".join([video(v) for v in d["beat"]]))
+    )
+    
     if d["stages"]:
         info = info.replace("%STAGES%", "<li>" + ("</li>\n<li>".join(d["stages"])) + "</li>")
     else:
@@ -132,7 +146,14 @@ for char in data:
         info = info.replace("%NOTES%", "None")
 
     
-    play = play_base.replace("%NAME%", d["name"]).replace("%THUMB_NAME%", d["thumb_name"]).replace("%GUIDE%", "\n".join([video(v) for v in d["guide"]])).replace("%COMBO%", "\n".join([video(v) for v in d["combo"]])).replace("%DISCORD%", d["discord"])
+    play = (
+        play_base
+        .replace("%NAME%", d["name"])
+        .replace("%THUMB_NAME%", d["thumb_name"])
+        .replace("%GUIDE%", "\n".join([video(v) for v in d["guide"]]))
+        .replace("%COMBO%", "\n".join([video(v) for v in d["combo"]]))
+        .replace("%DISCORD%", d["discord"])
+    )
 
     with open("./play/"+char+".html", "w") as fp:
         fp.write(play)

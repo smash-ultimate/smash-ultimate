@@ -21,7 +21,7 @@
 		],
 		"beat": ["ZGEXsiYu7ek"],
 		"guide": ["vKBM9B8CEBw"],
-		"combo": ["vKBM9B8CEBw"],
+		"combo": ["nqDfKxPPTMg"],
 		"discord": "xARdRQ3eGz"
 	},
 	
@@ -46,7 +46,7 @@
 			"Tech Stage Spikes"
 		],
 		"beat": ["y4vtXM2vzug"],
-		"guide": [],
+		"guide": ["1TekTES3m6U"],
 		"combo": ["RctChRAw-GM"],
 		"discord": "qMzMf8g"
 	},
@@ -1092,6 +1092,111 @@
 		"combo": ["3BqjrhZVowY"],
 		"discord": "mmE4NgS",
 		"stages": ["Opponents worst stage"]
+	},
+	
+	"villager": {
+		"name": "villager",
+		"thumb_name": "villager",
+		"frame": "villager",
+		"str": [
+			"Sling Shot",
+			"Setups With Tree [Can Axe If Tree Is Anywhere]",
+			"Edge Guarding",
+			"Camping"
+		],
+		"weak": [
+			"Mobillity",
+			"Reflectors",
+			"Slow Grab (punish it)",
+			"Struggles To KO"
+		],
+		"notes": [
+			"Can Poket Projectiles",
+			"Has Projectiles"
+		],
+		"beat": ["Chklb3IJgyk"],
+		"guide": ["ytRWrxzJEns"],
+		"combo": ["3C3gTqVOp0s"],
+		"discord": "eA56cyJ",
+		"stages": ["Kalos", "Battlefield", "Yoshi's Story"]
+	},
+	
+	"mega_man": {
+		"name": "mega man",
+		"thumb_name": "mega_man",
+		"frame": "mega_man",
+		"str": [
+			"Zoning",
+			"Edge Guarding [Hard Knuckel]",
+			"Juggling [Uair]",
+			"Saw Can Turn Into Item [Can Be Z Dropped]"
+		],
+		"weak": [
+			"Cross Ups",
+			"Rushdown",
+			"Laggy Moves",
+			"Approch"
+		],
+		"notes": [
+			"7 Projectiles",
+			"Walk Into Mega Man To Put Sicky Bomb Onto Him"
+		],
+		"beat": ["DaHfP65MUZk"],
+		"guide": ["GNF3a8yteT8"],
+		"combo": ["1Om1297wWLk"],
+		"discord": "fBfHuKS",
+		"stages": ["Opponents worst stage"]
+	},
+	
+	"wii": {
+		"name": "wii fit trainer",
+		"thumb_name": "wii_fit_trainer",
+		"frame": "wii_fit_trainer",
+		"str": [
+			"Deep Breathing",
+			"Weird Hit Boxes"
+		],
+		"weak": [
+			"Bad Approch",
+			"Poor Range",
+			"Struggles With Reflectors",
+			"Combos"
+		],
+		"notes": [
+			"Has Projectile (one of the best in game as wii fit can heal)",
+			"Jab Berries"
+		],
+		"beat": ["rfVa4Tym4bE"],
+		"guide": ["tNwb5BMfyRI"],
+		"combo": ["4c86aMWIqtM"],
+		"discord": "CQ4NQ6r",
+		"stages": ["Kalos"]
+	},
+	
+	"rosa": {
+		"name": "rosalina and luma",
+		"thumb_name": "rosalina_and_luma",
+		"frame": "rosalina_and_luma",
+		"str": [
+			"Luma",
+			"Edge Gaurding (as a wolf, I can say this is bullshit)",
+			"Can't Pummel After Grab, The Luma Will Attack",
+			"Good Aerials",
+			"Can Absorb Projectiles"
+		],
+		"weak": [
+			"Vulnerable Without Luma",
+			"Poor Enducance [Tall Frame & Light Weight] (combo them; may die at lower %)",
+			"Exploitable Recovery"
+		],
+		"notes": [
+			
+		],
+		"beat": ["UXKWbuLzmm8"],
+		"guide": ["dYRcdWPgLvQ"],
+		"combo": ["lmWPAmmgd8U"],
+		"discord": "a5asHUc",
+		"stages": ["Battlefield", "Town and City", "Kalos"]
 	},
 	
 	"": {
