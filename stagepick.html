@@ -1,0 +1,146 @@
+<html>
+	<head>
+		<title>Smash-Ultimate - Match Ups</title>
+		<link rel="stylesheet" href="./css/dark-colors.css">
+		<link rel="stylesheet" href="./css/dark-mode.css">
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="shortcut icon" href="https://www.smashbros.com/ja_JP/assets_v2/img/howtoplay/mode_label_ico01.svg">
+	</head>
+	<body>
+		<center style="background-color:black;">
+			<a href="./index.html"><img src="./res/lineup.png" alt="Smash Line Up" style="width:100%;max-width: 1000px;"></a>
+			<br>
+			
+			<center class="bar">
+				<a href="./info.html" style="background-color:black;"> <button class="bar-button">Character Info</button></a>
+				<a href="./play.html" style="background-color:black;"> <button class="bar-button">How To Play A Character</button></a>
+				<a href="./main.html" style="background-color:black;"> <button class="bar-button">Find A Main</button></a>
+				<a href="./basics.html" style="background-color:black;"> <button class="bar-button">How TO Smash</button></a>
+				<a href="./stages.html" style="background-color:black;"> <button class="bar-button">Legal Stages</button></a>
+				<a href="./stagepick.html" style="background-color:black;"> <button class="bar-button">Stage Counter Picks</button></a>
+				<a href="https://ultimateframedata.com/smash" style="background-color:black;"> <button class="bar-button">Frame Data</button></a>
+				<a href="https://smasharchives.com/character" style="background-color:black;"> <button class="bar-button">MatchUp Vods</button></a>
+			</center>
+			
+			<h1 class="title" id="StageHeader">Pick who your playing</h1>
+		</center>
+		
+		<div class="main-content" style="margin: 0px; max-width: 100%;">
+			<center>
+				<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/mario.png);" onclick="Go('Mario')">mario</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/donkey_kong.png);" onclick="Go('Donkey%20Kong')">donkey kong</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/link.png);" onclick="Go('Link')">link</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/samus.png);" onclick="Go('Samus%20(Dark%20Samus)')">samus</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/dark_samus.png);" onclick="Go('Samus%20(Dark%20Samus)')">dark samus</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/yoshi.png);" onclick="Go('Yoshi')">yoshi</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/kirby.png);" onclick="Go('Kirby')">kirby</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/fox.png);" onclick="Go('Fox')">fox</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/pikachu.png);" onclick="Go('Pikachu')">pikachu</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/luigi.png);" onclick="Go('Luigi')">luigi</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/ness.png);" onclick="Go('Ness')">ness</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/captain_falcon.png);" onclick="Go('Captain%20Falcon')">captain falcon</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/jigglypuff.png);" onclick="Go('Jigglypuff')">jigglypuff</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/peach.png);" onclick="Go('Peach%20(Daisy)')">peach</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/daisy.png);" onclick="Go('Peach%20(Daisy)')">daisy</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/bowser.png);" onclick="Go('Bowser')">bowser</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/ice_climbers.png);" onclick="Go('Ice%20Climbers')">ice climbers</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/sheik.png);" onclick="Go('Sheik')">sheik</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/zelda.png);" onclick="Go('Zelda')">zelda</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/dr_mario.png);" onclick="Go('Dr.%20Mario')">dr. mario</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/pichu.png);" onclick="Go('Pichu')">pichu</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/falco.png);" onclick="Go('Falco')">falco</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/marth.png);" onclick="Go('Marth%20(Lucina)')">marth</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/lucina.png);" onclick="Go('Marth%20(Lucina)')">lucina</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/young_link.png);" onclick="Go('Young%20Link')">young link</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/ganondorf.png);" onclick="Go('Ganondorf')">ganondorf</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/mewtwo.png);" onclick="Go('Mewtwo')">mewtwo</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/roy.png);" onclick="Go('Roy')">roy</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/chrom.png);" onclick="Go('Chrom')">chrom</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/mr_game_and_watch.png);" onclick="Go('Mr.%20Game%20&%20Watch')">mr. game and watch</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/meta_knight.png);" onclick="Go('Meta%20Knight')">meta knight</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/pit.png);" onclick="Go('Pit')">pit</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/dark_pit.png);" onclick="Go('Dark%20Pit')">dark pit</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/zero_suit_samus.png);" onclick="Go('Zero%20Suit%20Samus')">zero suit samus</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/wario.png);" onclick="Go('Wario')">wario</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/snake.png);" onclick="Go('Snake')">snake</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/ike.png);" onclick="Go('Ike')">ike</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/pokemon_trainer.png);" onclick="Go('Squirtle')">squirtle</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/pokemon_trainer.png);" onclick="Go('Ivysaur')">ivysaur</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/pokemon_trainer.png);" onclick="Go('Charizard')">charizard</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/diddy_kong.png);" onclick="Go('Diddy%20Kong')">diddy kong</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/lucas.png);" onclick="Go('Lucas')">lucas</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/sonic.png);" onclick="Go('Sonic')">sonic</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/king_dedede.png);" onclick="Go('King%20Dedede')">king dedede</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/olimar.png);" onclick="Go('Olimar')">olimar</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/lucario.png);" onclick="Go('Lucario')">lucario</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/rob.png);" onclick="Go('R.O.B.')">rob</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/toon_link.png);" onclick="Go('Toon%20Link')">toon link</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/wolf.png);" onclick="Go('Wolf')">wolf</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/villager.png);" onclick="Go('Villager')">villager</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/mega_man.png);" onclick="Go('Mega%20Man')">mega man</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/wii_fit_trainer.png);" onclick="Go('Wii%20Fit%20Trainer')">wii fit trainer</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/rosalina_and_luma.png);" onclick="Go('Rosalina%20&%20Luma')">rosalina and luma</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/little_mac.png);" onclick="Go('Little%20Mac')">little mac</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/greninja.png);" onclick="Go('Greninja')">greninja</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/mii_fighter.png);" onclick="Go('Mii%20Brawler')">mii brawler</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/mii_fighter.png);" onclick="Go('Mii%20Swordfighter')">mii swordfighter</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/mii_fighter.png);" onclick="Go('Mii%20Gunner')">mii gunner</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/palutena.png);" onclick="Go('Palutena')">palutena</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/pac_man.png);" onclick="Go('Pac-Man')">pac-man</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/robin.png);" onclick="Go('Robin')">robin</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/shulk.png);" onclick="Go('Shulk')">shulk</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/bowser_jr.png);" onclick="Go('Bowser%20Jr.')">bowser jr.</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/duck_hunt.png);" onclick="Go('Duck%20Hunt')">duck hunt</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/ryu.png);" onclick="Go('Ryu')">ryu</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/ken.png);" onclick="Go('Ken')">ken</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/cloud.png);" onclick="Go('Cloud')">cloud</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/corrin.png);" onclick="Go('Corrin')">corrin</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/bayonetta.png);" onclick="Go('Bayonetta')">bayonetta</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/inkling.png);" onclick="Go('Inkling')">inkling</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/ridley.png);" onclick="Go('Ridley')">ridley</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/simon.png);" onclick="Go('Simon%20(Richter)')">simon</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/richter.png);" onclick="Go('Simon%20(Richter)')">richter</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/king_k_rool.png);" onclick="Go('King%20K.%20Rool')">king k. rool</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/shizue.png);" onclick="Go('Isabelle')">isabelle</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/gaogaen.png);" onclick="Go('Incineroar')">incineroar</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/packun_flower.png);" onclick="Go('Piranha%20Plant')">piranha plant</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/joker.png);" onclick="Go('Joker')">joker</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/dq_hero.png);" onclick="Go('Hero')">hero</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/banjo_and_kazooie.png);" onclick="Go('Banjo%20&%20Kazooie')">banjo</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/terry.png);" onclick="Go('Terry')">terry</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/byleth.png);" onclick="Go('Byleth')">byleth</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/minmin.png);" onclick="Go('Min%20Min')">min min</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/steve.png);" onclick="Go('Steve')">steve</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/sephiroth.png);" onclick="Go('Sephiroth')">sephiroth</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/homura.png);" onclick="Go('Pyra%20&%20Mythra')">pyra</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/homura.png);" onclick="Go('Pyra%20&%20Mythra')">mythra</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/kazuya.png);" onclick="Go('Kazuya')">kazuya</button>
+<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/sora.png);" onclick="Go('Sora')">sora</button>
+
+			</center>
+			
+			<button id="to_top">«</button>
+		</div>
+	</body>
+	
+	<script src="js/back_to_top.js"></script>
+	<script>
+        function Go(c){
+            mychar = (new URLSearchParams(location.search)).get("mychar")
+            opchar = (new URLSearchParams(location.search)).get("opchar")
+            if (mychar){
+                window.location = "https://www.ssbu-stage-guides.com/matchups/"+mychar+"/"+c
+            } else if (opchar){
+                window.location = "https://www.ssbu-stage-guides.com/matchups/"+c+"/"+opchar
+            } else {
+                window.location += "?mychar="+c
+            }
+        }
+        window.onload = function(){
+            if ((new URLSearchParams(location.search)).get("mychar")) {
+                document.getElementById("StageHeader").innerHTML = "Pick your opponent"
+            }
+        }
+    </script>
+</html>
+

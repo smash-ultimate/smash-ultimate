@@ -17,22 +17,9 @@
             "ZGEXsiYu7ek",
             "CFDaNBUP1XY"
         ],
-        "discord": "xARdRQ3eGz",
-        "stages": [
-            "Yoshi's Story",
-            "Battlefield",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Town and City",
-            "Lylat Cruise",
-            "Unova",
-            "Yoshi's Island",
-            "Kalos",
-            "Final Destination"
-        ],
-        "number": "1",
-        "stages_url": "Mario"
+        "discord": "",
+        "stages": [],
+        "number": "1"
     },
     "DONKEY KONG": {
         "name": "donkey kong",
@@ -52,22 +39,9 @@
         "beat": [
             "y4vtXM2vzug"
         ],
-        "discord": "qMzMf8g",
-        "stages": [
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Yoshi's Story",
-            "Battlefield",
-            "Smashville",
-            "Unova",
-            "Town and City",
-            "Final Destination",
-            "Yoshi's Island",
-            "Lylat Cruise",
-            "Kalos"
-        ],
-        "number": "2",
-        "stages_url": "Donkey%20Kong"
+        "discord": "",
+        "stages": [],
+        "number": "2"
     },
     "LINK": {
         "name": "link",
@@ -88,22 +62,9 @@
         "beat": [
             "zAyYPBDoCQ8"
         ],
-        "discord": "Wynbrkd",
-        "stages": [
-            "Kalos",
-            "Final Destination",
-            "Town and City",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Small Battlefield",
-            "Unova",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Battlefield",
-            "Yoshi's Island"
-        ],
-        "number": "3",
-        "stages_url": "Link"
+        "discord": "",
+        "stages": [],
+        "number": "3"
     },
     "SAMUS": {
         "name": "samus",
@@ -123,22 +84,9 @@
         "beat": [
             "x88Fn6h8sXY"
         ],
-        "discord": "b69G8H6",
-        "stages": [
-            "Battlefield",
-            "Kalos",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Small Battlefield",
-            "Final Destination",
-            "Yoshi's Story",
-            "Unova",
-            "Lylat Cruise",
-            "Smashville",
-            "Yoshi's Island"
-        ],
-        "number": "4",
-        "stages_url": "Samus%20(Dark%20Samus)"
+        "discord": "",
+        "stages": [],
+        "number": "4"
     },
     "DARK SAMUS": {
         "name": "dark samus",
@@ -155,22 +103,9 @@
         "beat": [
             "x88Fn6h8sXY"
         ],
-        "discord": "b69G8H6",
-        "stages": [
-            "Battlefield",
-            "Kalos",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Small Battlefield",
-            "Final Destination",
-            "Yoshi's Story",
-            "Unova",
-            "Lylat Cruise",
-            "Smashville",
-            "Yoshi's Island"
-        ],
-        "number": "4e",
-        "stages_url": "Samus%20(Dark%20Samus)"
+        "discord": "",
+        "stages": [],
+        "number": "4e"
     },
     "YOSHI": {
         "name": "yoshi",
@@ -190,22 +125,9 @@
         "beat": [
             "SqKDVXvzN6I"
         ],
-        "discord": "QKanWPU",
-        "stages": [
-            "Battlefield",
-            "Yoshi's Story",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Lylat Cruise",
-            "Final Destination",
-            "Unova",
-            "Town and City",
-            "Smashville",
-            "Yoshi's Island",
-            "Kalos"
-        ],
-        "number": "5",
-        "stages_url": "Yoshi"
+        "discord": "",
+        "stages": [],
+        "number": "5"
     },
     "KIRBY": {
         "name": "kirby",
@@ -226,22 +148,9 @@
         "beat": [
             "1g9c818wSHQ"
         ],
-        "discord": "wDMG7sQ6EE",
-        "stages": [
-            "Final Destination",
-            "Smashville",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Small Battlefield",
-            "Yoshi's Island",
-            "Unova",
-            "Kalos",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Battlefield"
-        ],
-        "number": "6",
-        "stages_url": "Kirby"
+        "discord": "",
+        "stages": [],
+        "number": "6"
     },
     "FOX": {
         "name": "fox",
@@ -263,22 +172,9 @@
             "0WC4CUK8XFc",
             "lj8X_YKYzpA"
         ],
-        "discord": "UsXQhYQSKx",
-        "stages": [
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Small Battlefield",
-            "Final Destination",
-            "Town and City",
-            "Kalos",
-            "Smashville",
-            "Yoshi's Story",
-            "Unova",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "7",
-        "stages_url": "Fox"
+        "discord": "",
+        "stages": [],
+        "number": "7"
     },
     "PIKACHU": {
         "name": "pikachu",
@@ -299,22 +195,9 @@
             "WncSgXJGf1Q",
             "DMjyYviwRXE"
         ],
-        "discord": "UprygGD",
-        "stages": [
-            "Kalos",
-            "Final Destination",
-            "Town and City",
-            "Smashville",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Unova",
-            "Pokemon Stadium 2",
-            "Yoshi's Island",
-            "Small Battlefield",
-            "Battlefield"
-        ],
-        "number": "8",
-        "stages_url": "Pikachu"
+        "discord": "",
+        "stages": [],
+        "number": "8"
     },
     "LUIGI": {
         "name": "luigi",
@@ -332,22 +215,9 @@
         "beat": [
             "tpB0cBVWjFU"
         ],
-        "discord": "sx7JWub",
-        "stages": [
-            "Smashville",
-            "Final Destination",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Kalos",
-            "Unova",
-            "Battlefield",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "9",
-        "stages_url": "Luigi"
+        "discord": "",
+        "stages": [],
+        "number": "9"
     },
     "NESS": {
         "name": "ness",
@@ -371,22 +241,9 @@
             "rf_OLKaxrQw",
             "dSIjrT_24WM"
         ],
-        "discord": "GXvBCuN",
-        "stages": [
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Smashville",
-            "Town and City",
-            "Final Destination",
-            "Kalos",
-            "Yoshi's Story",
-            "Unova",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "10",
-        "stages_url": "Ness"
+        "discord": "",
+        "stages": [],
+        "number": "10"
     },
     "CAPTAIN FALCON": {
         "name": "captain falcon",
@@ -409,22 +266,9 @@
         "beat": [
             "AsQhvkBM6bY"
         ],
-        "discord": "0XG2K9WbH8VAFd8p",
-        "stages": [
-            "Battlefield",
-            "Small Battlefield",
-            "Kalos",
-            "Yoshi's Story",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Smashville",
-            "Unova",
-            "Yoshi's Island",
-            "Final Destination",
-            "Lylat Cruise"
-        ],
-        "number": "11",
-        "stages_url": "Captain%20Falcon"
+        "discord": "",
+        "stages": [],
+        "number": "11"
     },
     "JIGGLYPUFF": {
         "name": "jigglypuff",
@@ -452,22 +296,9 @@
         "beat": [
             "Uyr8sAYVCIg"
         ],
-        "discord": "0Wj6QkUoh01KUVPn",
-        "stages": [
-            "Small Battlefield",
-            "Battlefield",
-            "Smashville",
-            "Pokemon Stadium 2",
-            "Final Destination",
-            "Unova",
-            "Lylat Cruise",
-            "Yoshi's Story",
-            "Kalos",
-            "Town and City",
-            "Yoshi's Island"
-        ],
-        "number": "12",
-        "stages_url": "Jigglypuff"
+        "discord": "",
+        "stages": [],
+        "number": "12"
     },
     "PEACH": {
         "name": "peach",
@@ -486,22 +317,9 @@
         "beat": [
             "cytcgvfv0sU"
         ],
-        "discord": "gPq3gC4g2f",
-        "stages": [
-            "Final Destination",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Kalos",
-            "Smashville",
-            "Unova",
-            "Small Battlefield",
-            "Battlefield",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "13",
-        "stages_url": "Peach%20(Daisy)"
+        "discord": "",
+        "stages": [],
+        "number": "13e"
     },
     "DAISY": {
         "name": "daisy",
@@ -517,22 +335,9 @@
         "beat": [
             "cytcgvfv0sU"
         ],
-        "discord": "gPq3gC4g2f",
-        "stages": [
-            "Final Destination",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Kalos",
-            "Smashville",
-            "Unova",
-            "Small Battlefield",
-            "Battlefield",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "13e",
-        "stages_url": "Peach%20(Daisy)"
+        "discord": "",
+        "stages": [],
+        "number": "13"
     },
     "BOWSER": {
         "name": "bowser",
@@ -556,22 +361,9 @@
         "beat": [
             "gaDUbVYJIFA"
         ],
-        "discord": "0hwgnNR34wz6cSgX",
-        "stages": [
-            "Small Battlefield",
-            "Yoshi's Story",
-            "Battlefield",
-            "Smashville",
-            "Unova",
-            "Town and City",
-            "Pokemon Stadium 2",
-            "Kalos",
-            "Yoshi's Island",
-            "Final Destination",
-            "Lylat Cruise"
-        ],
-        "number": "14",
-        "stages_url": "Bowser"
+        "discord": "",
+        "stages": [],
+        "number": "14"
     },
     "ICE CLIMBERS": {
         "name": "ice climbers",
@@ -592,22 +384,9 @@
         "beat": [
             "Rh-ueKwv_gE"
         ],
-        "discord": "6ha6HVF",
-        "stages": [
-            "Final Destination",
-            "Smashville",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Small Battlefield",
-            "Kalos",
-            "Unova",
-            "Yoshi's Island",
-            "Lylat Cruise",
-            "Yoshi's Story",
-            "Town and City"
-        ],
-        "number": "15",
-        "stages_url": "Ice%20Climbers"
+        "discord": "",
+        "stages": [],
+        "number": "15"
     },
     "SHEIK": {
         "name": "sheik",
@@ -625,22 +404,9 @@
         "beat": [
             "Y_aqlIw2p8E"
         ],
-        "discord": "MSbMHrY",
-        "stages": [
-            "Final Destination",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Kalos",
-            "Small Battlefield",
-            "Smashville",
-            "Battlefield",
-            "Lylat Cruise",
-            "Unova",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "16",
-        "stages_url": "Sheik"
+        "discord": "",
+        "stages": [],
+        "number": "16"
     },
     "ZELDA": {
         "name": "zelda",
@@ -659,27 +425,14 @@
         "beat": [
             "NzV8rLbSPVc"
         ],
-        "discord": "FTw5cVD",
-        "stages": [
-            "Final Destination",
-            "Small Battlefield",
-            "Smashville",
-            "Kalos",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Town and City",
-            "Lylat Cruise",
-            "Yoshi's Story",
-            "Unova",
-            "Yoshi's Island"
-        ],
-        "number": "17",
-        "stages_url": "Zelda"
+        "discord": "",
+        "stages": [],
+        "number": "17"
     },
     "DR. MARIO": {
         "name": "dr. mario",
         "thumb_name": "dr_mario",
-        "frame": "dr_mario",
+        "frame": "dr._mario",
         "tips": [
             "Gimp,gimp,gimp, Gimp Again",
             "Out space (and, of course, gimp)",
@@ -694,22 +447,9 @@
         "beat": [
             "ZGEXsiYu7ek"
         ],
-        "discord": "pNk9UzP",
-        "stages": [
-            "Small Battlefield",
-            "Smashville",
-            "Pokemon Stadium 2",
-            "Final Destination",
-            "Unova",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Kalos",
-            "Battlefield",
-            "Town and City",
-            "Yoshi's Island"
-        ],
-        "number": "18",
-        "stages_url": "Dr.%20Mario"
+        "discord": "",
+        "stages": [],
+        "number": "18"
     },
     "PICHU": {
         "name": "pichu",
@@ -730,22 +470,9 @@
         "beat": [
             "fA6CvEex4Oo"
         ],
-        "discord": "RgcFwQB",
-        "stages": [
-            "Kalos",
-            "Final Destination",
-            "Small Battlefield",
-            "Town and City",
-            "Smashville",
-            "Pokemon Stadium 2",
-            "Unova",
-            "Battlefield",
-            "Yoshi's Island",
-            "Yoshi's Story",
-            "Lylat Cruise"
-        ],
-        "number": "19",
-        "stages_url": "Pichu"
+        "discord": "",
+        "stages": [],
+        "number": "19"
     },
     "FALCO": {
         "name": "falco",
@@ -763,22 +490,9 @@
         "beat": [
             "Jx3Z512mKYA"
         ],
-        "discord": "HptPZcT",
-        "stages": [
-            "Battlefield",
-            "Yoshi's Story",
-            "Small Battlefield",
-            "Smashville",
-            "Pokemon Stadium 2",
-            "Lylat Cruise",
-            "Town and City",
-            "Unova",
-            "Final Destination",
-            "Yoshi's Island",
-            "Kalos"
-        ],
-        "number": "20",
-        "stages_url": "Falco"
+        "discord": "",
+        "stages": [],
+        "number": "20"
     },
     "MARTH": {
         "name": "marth",
@@ -798,22 +512,9 @@
         "beat": [
             "9WgTGrwB0EU"
         ],
-        "discord": "0bQ68KVbo2Pt5ISy",
-        "stages": [
-            "Battlefield",
-            "Smashville",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Yoshi's Story",
-            "Final Destination",
-            "Unova",
-            "Kalos",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "21",
-        "stages_url": "Marth%20(Lucina)"
+        "discord": "",
+        "stages": [],
+        "number": "21"
     },
     "LUCINA": {
         "name": "lucina",
@@ -830,22 +531,9 @@
         "beat": [
             "9WgTGrwB0EU"
         ],
-        "discord": "0bQ68KVbo2Pt5ISy",
-        "stages": [
-            "Battlefield",
-            "Smashville",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Yoshi's Story",
-            "Final Destination",
-            "Unova",
-            "Kalos",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "21e",
-        "stages_url": "Marth%20(Lucina)"
+        "discord": "",
+        "stages": [],
+        "number": "21e"
     },
     "YOUNG LINK": {
         "name": "young link",
@@ -866,22 +554,9 @@
         "beat": [
             "zAyYPBDoCQ8"
         ],
-        "discord": "zxC8Vzr",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Unova",
-            "Kalos",
-            "Final Destination",
-            "Lylat Cruise",
-            "Smashville",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Battlefield",
-            "Small Battlefield"
-        ],
-        "number": "22",
-        "stages_url": "Young%20Link"
+        "discord": "",
+        "stages": [],
+        "number": "22"
     },
     "GANONDORF": {
         "name": "ganondorf",
@@ -903,22 +578,9 @@
         "beat": [
             "K6hkoBu6A9k"
         ],
-        "discord": "qhtPMHY",
-        "stages": [
-            "Smashville",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Lylat Cruise",
-            "Unova",
-            "Yoshi's Story",
-            "Kalos",
-            "Yoshi's Island",
-            "Final Destination",
-            "Town and City"
-        ],
-        "number": "23",
-        "stages_url": "Ganondorf"
+        "discord": "",
+        "stages": [],
+        "number": "23"
     },
     "MEWTWO": {
         "name": "mewtwo",
@@ -938,22 +600,9 @@
         "beat": [
             "VcEOuqVmaUI"
         ],
-        "discord": "AUVSYqb",
-        "stages": [
-            "Town and City",
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Kalos",
-            "Final Destination",
-            "Smashville",
-            "Small Battlefield",
-            "Unova",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "24",
-        "stages_url": "Mewtwo"
+        "discord": "",
+        "stages": [],
+        "number": "24"
     },
     "ROY": {
         "name": "roy",
@@ -971,22 +620,9 @@
         "beat": [
             "ZMPT1JGoGrs"
         ],
-        "discord": "dgJrPSK",
-        "stages": [
-            "Town and City",
-            "Small Battlefield",
-            "Smashville",
-            "Battlefield",
-            "Yoshi's Story",
-            "Pokemon Stadium 2",
-            "Unova",
-            "Final Destination",
-            "Kalos",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "25",
-        "stages_url": "Roy"
+        "discord": "",
+        "stages": [],
+        "number": "25"
     },
     "CHROM": {
         "name": "chrom",
@@ -1004,27 +640,14 @@
         "beat": [
             "ZMPT1JGoGrs"
         ],
-        "discord": "dgJrPSK",
-        "stages": [
-            "Town and City",
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Small Battlefield",
-            "Smashville",
-            "Yoshi's Story",
-            "Unova",
-            "Final Destination",
-            "Yoshi's Island",
-            "Lylat Cruise",
-            "Kalos"
-        ],
-        "number": "25e",
-        "stages_url": "Chrom"
+        "discord": "",
+        "stages": [],
+        "number": "25e"
     },
     "MR. GAME AND WATCH": {
         "name": "mr. game and watch",
         "thumb_name": "mr_game_and_watch",
-        "frame": "mr_game_and_watch",
+        "frame": "mr._game_and_watch",
         "tips": [
             "Can hit hard, but one of the lighter characters in the game",
             "Careful with spamming ranged into his bucket",
@@ -1053,22 +676,9 @@
         "beat": [
             "_UgVrXWL08I"
         ],
-        "discord": "fzWuqZ8",
-        "stages": [
-            "Battlefield",
-            "Smashville",
-            "Small Battlefield",
-            "Yoshi's Story",
-            "Final Destination",
-            "Pokemon Stadium 2",
-            "Unova",
-            "Town and City",
-            "Lylat Cruise",
-            "Yoshi's Island",
-            "Kalos"
-        ],
-        "number": "26",
-        "stages_url": "Mr.%20Game%20&%20Watch"
+        "discord": "",
+        "stages": [],
+        "number": "26"
     },
     "META KNIGHT": {
         "name": "meta knight",
@@ -1086,22 +696,9 @@
         "beat": [
             "lbJKShLEua8"
         ],
-        "discord": "raEcZ8f",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Final Destination",
-            "Town and City",
-            "Kalos",
-            "Small Battlefield",
-            "Yoshi's Story",
-            "Unova",
-            "Battlefield",
-            "Lylat Cruise",
-            "Smashville",
-            "Yoshi's Island"
-        ],
-        "number": "27",
-        "stages_url": "Meta%20Knight"
+        "discord": "",
+        "stages": [],
+        "number": "27"
     },
     "PIT": {
         "name": "pit",
@@ -1119,22 +716,9 @@
         "beat": [
             "mTLolct5KSo"
         ],
-        "discord": "gJHHHR4urr",
-        "stages": [
-            "Battlefield",
-            "Unova",
-            "Small Battlefield",
-            "Yoshi's Story",
-            "Pokemon Stadium 2",
-            "Yoshi's Island",
-            "Final Destination",
-            "Town and City",
-            "Lylat Cruise",
-            "Smashville",
-            "Kalos"
-        ],
-        "number": "28",
-        "stages_url": "Pit"
+        "discord": "",
+        "stages": [],
+        "number": "28"
     },
     "DARK PIT": {
         "name": "dark pit",
@@ -1150,22 +734,9 @@
         "beat": [
             "mTLolct5KSo"
         ],
-        "discord": "gJHHHR4urr",
-        "stages": [
-            "Yoshi's Story",
-            "Small Battlefield",
-            "Battlefield",
-            "Final Destination",
-            "Unova",
-            "Yoshi's Island",
-            "Town and City",
-            "Smashville",
-            "Pokemon Stadium 2",
-            "Lylat Cruise",
-            "Kalos"
-        ],
-        "number": "28e",
-        "stages_url": "Dark%20Pit"
+        "discord": "",
+        "stages": [],
+        "number": "28e"
     },
     "ZERO SUIT SAMUS": {
         "name": "zero suit samus",
@@ -1186,22 +757,9 @@
             "GI-OnFr27hE",
             "qBafn-Snfdw"
         ],
-        "discord": "up3dbCf",
-        "stages": [
-            "Battlefield",
-            "Yoshi's Story",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Yoshi's Island",
-            "Smashville",
-            "Unova",
-            "Town and City",
-            "Final Destination",
-            "Lylat Cruise",
-            "Kalos"
-        ],
-        "number": "29",
-        "stages_url": "Zero%20Suit%20Samus"
+        "discord": "",
+        "stages": [],
+        "number": "29"
     },
     "WARIO": {
         "name": "wario",
@@ -1221,22 +779,9 @@
         "beat": [
             "t7Ycsc9LJGA"
         ],
-        "discord": "HRQWSZK",
-        "stages": [
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Small Battlefield",
-            "Smashville",
-            "Town and City",
-            "Yoshi's Story",
-            "Unova",
-            "Lylat Cruise",
-            "Yoshi's Island",
-            "Final Destination",
-            "Kalos"
-        ],
-        "number": "30",
-        "stages_url": "Wario"
+        "discord": "",
+        "stages": [],
+        "number": "30"
     },
     "SNAKE": {
         "name": "snake",
@@ -1255,22 +800,9 @@
             "Ym4wP569ifk",
             "UwMAJHmQFCU"
         ],
-        "discord": "3BXATDr",
-        "stages": [
-            "Battlefield",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Lylat Cruise",
-            "Smashville",
-            "Unova",
-            "Town and City",
-            "Yoshi's Island",
-            "Final Destination",
-            "Yoshi's Story",
-            "Kalos"
-        ],
-        "number": "31",
-        "stages_url": "Snake"
+        "discord": "",
+        "stages": [],
+        "number": "31"
     },
     "IKE": {
         "name": "ike",
@@ -1295,22 +827,9 @@
         "beat": [
             "xAF4jPJcFAg"
         ],
-        "discord": "ggHCGgM",
-        "stages": [
-            "Battlefield",
-            "Yoshi's Story",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Small Battlefield",
-            "Unova",
-            "Town and City",
-            "Kalos",
-            "Lylat Cruise",
-            "Final Destination",
-            "Yoshi's Island"
-        ],
-        "number": "32",
-        "stages_url": "Ike"
+        "discord": "",
+        "stages": [],
+        "number": "32"
     },
     "Squirtle": {
         "name": "squirtle",
@@ -1322,7 +841,7 @@
             "Lack of kill power",
             "Watch out for water gun",
             "Poor recovery",
-            "Bear in mind whatever he'll want to go for with each of his Pokemon and adapt accordingly."
+            "Bear in mind whatever he'll want to go for with each of his Pok\u00e9mon and adapt accordingly."
         ],
         "guides": [
             "mIsgi9uRa0Q",
@@ -1332,22 +851,9 @@
         "beat": [
             "hhCzz_dltKw"
         ],
-        "discord": "tzNV4hF",
-        "stages": [
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Yoshi's Story",
-            "Smashville",
-            "Town and City",
-            "Final Destination",
-            "Kalos",
-            "Lylat Cruise",
-            "Unova",
-            "Yoshi's Island",
-            "Small Battlefield"
-        ],
-        "number": "33",
-        "stages_url": "Squirtle"
+        "discord": "",
+        "stages": [],
+        "number": "33"
     },
     "Ivysaur": {
         "name": "ivysaur",
@@ -1362,7 +868,7 @@
             "Razor leaf has poor priority",
             "Watch out for down throw into up b as it kills around 75%",
             "Stay away from above ivysaur, up b and upair can combo into kill super early (jump less)",
-            "Bear in mind whatever he'll want to go for with each of his Pokemon and adapt accordingly."
+            "Bear in mind whatever he'll want to go for with each of his Pok\u00e9mon and adapt accordingly."
         ],
         "guides": [
             "ohYVPYbXP2E",
@@ -1372,22 +878,9 @@
         "beat": [
             "hhCzz_dltKw"
         ],
-        "discord": "tzNV4hF",
-        "stages": [
-            "Small Battlefield",
-            "Battlefield",
-            "Yoshi's Story",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Town and City",
-            "Yoshi's Island",
-            "Lylat Cruise",
-            "Unova",
-            "Final Destination",
-            "Kalos"
-        ],
-        "number": "33",
-        "stages_url": "Ivysaur"
+        "discord": "",
+        "stages": [],
+        "number": "33"
     },
     "Charizard": {
         "name": "charizard",
@@ -1401,7 +894,7 @@
             "Big hurtbox",
             "Bad hitboxes",
             "Watch out for Forward Tilt. Kills early and has great range",
-            "Bear in mind whatever he'll want to go for with each of his Pokemon and adapt accordingly."
+            "Bear in mind whatever he'll want to go for with each of his Pok\u00e9mon and adapt accordingly."
         ],
         "guides": [
             "mBSV7pragNc",
@@ -1411,22 +904,9 @@
         "beat": [
             "hhCzz_dltKw"
         ],
-        "discord": "tzNV4hF",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Yoshi's Story",
-            "Battlefield",
-            "Smashville",
-            "Small Battlefield",
-            "Town and City",
-            "Unova",
-            "Yoshi's Island",
-            "Kalos",
-            "Final Destination",
-            "Lylat Cruise"
-        ],
-        "number": "33",
-        "stages_url": "Charizard"
+        "discord": "",
+        "stages": [],
+        "number": "33"
     },
     "DIDDY KONG": {
         "name": "diddy kong",
@@ -1447,22 +927,9 @@
         "beat": [
             "zZh8kSCKRzY"
         ],
-        "discord": "9trzxan",
-        "stages": [
-            "Town and City",
-            "Final Destination",
-            "Pokemon Stadium 2",
-            "Kalos",
-            "Small Battlefield",
-            "Smashville",
-            "Battlefield",
-            "Unova",
-            "Lylat Cruise",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "36",
-        "stages_url": "Diddy%20Kong"
+        "discord": "",
+        "stages": [],
+        "number": "36"
     },
     "LUCAS": {
         "name": "lucas",
@@ -1479,22 +946,9 @@
         "beat": [
             "sOy8qxGAHgc"
         ],
-        "discord": "Y5fjHed",
-        "stages": [
-            "Town and City",
-            "Small Battlefield",
-            "Final Destination",
-            "Kalos",
-            "Smashville",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Lylat Cruise",
-            "Unova",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "37",
-        "stages_url": "Lucas"
+        "discord": "",
+        "stages": [],
+        "number": "37"
     },
     "SONIC": {
         "name": "sonic",
@@ -1513,22 +967,9 @@
             "SLvK9eo1zUY",
             "QuAQGX6d-pc"
         ],
-        "discord": "z24Autr",
-        "stages": [
-            "Kalos",
-            "Town and City",
-            "Final Destination",
-            "Unova",
-            "Pokemon Stadium 2",
-            "Yoshi's Island",
-            "Yoshi's Story",
-            "Battlefield",
-            "Smashville",
-            "Small Battlefield",
-            "Lylat Cruise"
-        ],
-        "number": "38",
-        "stages_url": "Sonic"
+        "discord": "",
+        "stages": [],
+        "number": "38"
     },
     "KING DEDEDE": {
         "name": "king dedede",
@@ -1545,22 +986,9 @@
         "beat": [
             "1SXDFvyJjCs"
         ],
-        "discord": "fccCz2G",
-        "stages": [
-            "Smashville",
-            "Final Destination",
-            "Town and City",
-            "Pokemon Stadium 2",
-            "Unova",
-            "Small Battlefield",
-            "Kalos",
-            "Battlefield",
-            "Lylat Cruise",
-            "Yoshi's Island",
-            "Yoshi's Story"
-        ],
-        "number": "39",
-        "stages_url": "King%20Dedede"
+        "discord": "",
+        "stages": [],
+        "number": "39"
     },
     "OLIMAR": {
         "name": "olimar",
@@ -1577,22 +1005,9 @@
         "beat": [
             "Z-oDomb23HY"
         ],
-        "discord": "GDpDJzK",
-        "stages": [
-            "Final Destination",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Battlefield",
-            "Unova",
-            "Smashville",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Kalos",
-            "Lylat Cruise"
-        ],
-        "number": "40",
-        "stages_url": "Olimar"
+        "discord": "",
+        "stages": [],
+        "number": "40"
     },
     "LUCARIO": {
         "name": "lucario",
@@ -1609,22 +1024,9 @@
         "beat": [
             "fzLFNRnvILU"
         ],
-        "discord": "ZvRt7CD",
-        "stages": [
-            "Kalos",
-            "Final Destination",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Small Battlefield",
-            "Smashville",
-            "Unova",
-            "Town and City",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "41",
-        "stages_url": "Lucario"
+        "discord": "",
+        "stages": [],
+        "number": "41"
     },
     "ROB/R.O.B.": {
         "name": "rob",
@@ -1645,22 +1047,9 @@
         "beat": [
             "-2p1k1WEgAc"
         ],
-        "discord": "FkSQVBp",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Final Destination",
-            "Small Battlefield",
-            "Kalos",
-            "Town and City",
-            "Battlefield",
-            "Smashville",
-            "Unova",
-            "Lylat Cruise",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "42",
-        "stages_url": "R.O.B."
+        "discord": "",
+        "stages": [],
+        "number": "42"
     },
     "TOON LINK": {
         "name": "toon link",
@@ -1677,22 +1066,9 @@
         "beat": [
             "zAyYPBDoCQ8"
         ],
-        "discord": "uvGBcTA",
-        "stages": [
-            "Town and City",
-            "Kalos",
-            "Final Destination",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Battlefield",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Lylat Cruise",
-            "Unova"
-        ],
-        "number": "43",
-        "stages_url": "Toon%20Link"
+        "discord": "",
+        "stages": [],
+        "number": "43"
     },
     "WOLF": {
         "name": "wolf",
@@ -1709,22 +1085,9 @@
         "beat": [
             "gOTl4SKfDjY"
         ],
-        "discord": "mmE4NgS",
-        "stages": [
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Kalos",
-            "Town and City",
-            "Smashville",
-            "Final Destination",
-            "Yoshi's Story",
-            "Unova",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "44",
-        "stages_url": "Wolf"
+        "discord": "",
+        "stages": [],
+        "number": "44"
     },
     "VILLAGER": {
         "name": "villager",
@@ -1743,22 +1106,9 @@
         "beat": [
             "Chklb3IJgyk"
         ],
-        "discord": "eA56cyJ",
-        "stages": [
-            "Yoshi's Story",
-            "Battlefield",
-            "Small Battlefield",
-            "Kalos",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Town and City",
-            "Yoshi's Island",
-            "Final Destination",
-            "Lylat Cruise",
-            "Unova"
-        ],
-        "number": "45",
-        "stages_url": "Villager"
+        "discord": "",
+        "stages": [],
+        "number": "45"
     },
     "MEGA MAN": {
         "name": "mega man",
@@ -1770,7 +1120,7 @@
             "Close range is dangerous af. Out space him.",
             "All smashes have horrible lag. Punish that.",
             "Stay out of jab range, it's where a lot of hits can connect.",
-            "If he starts charging an fsmash, he\u00e2\u20ac\u2122s stuck in place about to shoot a projectile. You can stand right in front of him and reflector, and he won\u00e2\u20ac\u2122t be able to cancel it. Same with downB, locking him in place. These options make megaman into reflector food, and he\u00e2\u20ac\u2122ll likely be resorting on neutralB and sideB after you punish these a couple of times, limiting his projectile options."
+            "If he starts charging an fsmash, he’s stuck in place about to shoot a projectile. You can stand right in front of him and reflector, and he won’t be able to cancel it. Same with downB, locking him in place. These options make megaman into reflector food, and he’ll likely be resorting on neutralB and sideB after you punish these a couple of times, limiting his projectile options."
         ],
         "guides": [
             "1Om1297wWLk"
@@ -1778,22 +1128,9 @@
         "beat": [
             "DaHfP65MUZk"
         ],
-        "discord": "fBfHuKS",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Final Destination",
-            "Kalos",
-            "Town and City",
-            "Battlefield",
-            "Smashville",
-            "Yoshi's Story",
-            "Small Battlefield",
-            "Yoshi's Island",
-            "Lylat Cruise",
-            "Unova"
-        ],
-        "number": "46",
-        "stages_url": "Mega%20Man"
+        "discord": "",
+        "stages": [],
+        "number": "46"
     },
     "Wii Fit TRAINER": {
         "name": "wii fit trainer",
@@ -1811,22 +1148,9 @@
         "beat": [
             "rfVa4Tym4bE"
         ],
-        "discord": "CQ4NQ6r",
-        "stages": [
-            "Unova",
-            "Kalos",
-            "Pokemon Stadium 2",
-            "Small Battlefield",
-            "Battlefield",
-            "Final Destination",
-            "Smashville",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Town and City",
-            "Yoshi's Island"
-        ],
-        "number": "47",
-        "stages_url": "Wii%20Fit%20Trainer"
+        "discord": "",
+        "stages": [],
+        "number": "47"
     },
     "ROSALINA AND LUMA": {
         "name": "rosalina and luma",
@@ -1843,22 +1167,9 @@
         "beat": [
             "UXKWbuLzmm8"
         ],
-        "discord": "a5asHUc",
-        "stages": [
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Kalos",
-            "Small Battlefield",
-            "Unova",
-            "Yoshi's Story",
-            "Smashville",
-            "Final Destination",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "48",
-        "stages_url": "Rosalina%20&%20Luma"
+        "discord": "",
+        "stages": [],
+        "number": "48"
     },
     "LITTLE MAC": {
         "name": "little mac",
@@ -1879,22 +1190,9 @@
             "ZAZBf_f5hi4",
             "y9pp16Vf6L4"
         ],
-        "discord": "ZjJUVNn",
-        "stages": [
-            "Small Battlefield",
-            "Final Destination",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Yoshi's Island",
-            "Battlefield",
-            "Town and City",
-            "Unova",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Kalos"
-        ],
-        "number": "49",
-        "stages_url": "Little%20Mac"
+        "discord": "",
+        "stages": [],
+        "number": "49"
     },
     "GRENINJA": {
         "name": "greninja",
@@ -1913,22 +1211,9 @@
         "beat": [
             "N_aNEjDci5M"
         ],
-        "discord": "V9hnnSp",
-        "stages": [
-            "Kalos",
-            "Final Destination",
-            "Town and City",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Unova",
-            "Smashville",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "50",
-        "stages_url": "Greninja"
+        "discord": "",
+        "stages": [],
+        "number": "50"
     },
     "Mii Brawler/mii_fighter": {
         "name": "mii brawler",
@@ -1945,22 +1230,9 @@
         "beat": [
             "cFENR9rX1ZU"
         ],
-        "discord": "GBkjrd3",
-        "stages": [
-            "Yoshi's Story",
-            "Battlefield",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Town and City",
-            "Yoshi's Island",
-            "Unova",
-            "Lylat Cruise",
-            "Final Destination",
-            "Kalos"
-        ],
-        "number": "51",
-        "stages_url": "Mii%20Brawler"
+        "discord": "",
+        "stages": [],
+        "number": "51"
     },
     "Mii Swordfighter/mii_fighter": {
         "name": "mii swordfighter",
@@ -1977,29 +1249,17 @@
         "beat": [
             "0qeEwJuhQ_g"
         ],
-        "discord": "muVX4h5",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Small Battlefield",
-            "Unova",
-            "Final Destination",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Kalos",
-            "Smashville",
-            "Battlefield",
-            "Town and City",
-            "Yoshi's Island"
-        ],
-        "number": "52",
-        "stages_url": "Mii%20Swordfighter"
+        "discord": "",
+        "stages": [],
+        "number": "52"
     },
     "Mii Gunner/mii_fighter": {
         "name": "mii gunner",
         "thumb_name": "mii_fighter",
         "frame": "mii_gunner",
         "tips": [
-            "Has a really shitty neutral game if you take away her projectiles. Try to go for a rushdown tactic and don't let her breath."
+            "Has a really shitty neutral game if you take away her projectiles. Try to go for a rushdown tactic and don't let her breath.",
+            ""
         ],
         "guides": [
             "sild8FoS8XI"
@@ -2007,22 +1267,9 @@
         "beat": [
             "Lrkeya3kxg0"
         ],
-        "discord": "7CdEzy9",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Final Destination",
-            "Town and City",
-            "Kalos",
-            "Unova",
-            "Battlefield",
-            "Smashville",
-            "Small Battlefield",
-            "Lylat Cruise",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "53",
-        "stages_url": "Mii%20Gunner"
+        "discord": "",
+        "stages": [],
+        "number": "53"
     },
     "PALUTENA": {
         "name": "palutena",
@@ -2042,22 +1289,9 @@
         "beat": [
             "gwbD7Ks2yj4"
         ],
-        "discord": "xRYxrgEAnf",
-        "stages": [
-            "Battlefield",
-            "Small Battlefield",
-            "Yoshi's Story",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Smashville",
-            "Kalos",
-            "Lylat Cruise",
-            "Final Destination",
-            "Yoshi's Island",
-            "Unova"
-        ],
-        "number": "54",
-        "stages_url": "Palutena"
+        "discord": "",
+        "stages": [],
+        "number": "54"
     },
     "PAC-MAN": {
         "name": "pac-man",
@@ -2076,22 +1310,9 @@
         "beat": [
             "1-tr7QbQjCA"
         ],
-        "discord": "Khu27zPeaW",
-        "stages": [
-            "Final Destination",
-            "Kalos",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Smashville",
-            "Unova",
-            "Small Battlefield",
-            "Battlefield",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "55",
-        "stages_url": "Pac-Man"
+        "discord": "",
+        "stages": [],
+        "number": "55"
     },
     "ROBIN": {
         "name": "robin",
@@ -2107,22 +1328,9 @@
         "beat": [
             "Uq2vUJ6vZew"
         ],
-        "discord": "qp2FYcm",
-        "stages": [
-            "Battlefield",
-            "Small Battlefield",
-            "Unova",
-            "Pokemon Stadium 2",
-            "Yoshi's Story",
-            "Smashville",
-            "Kalos",
-            "Final Destination",
-            "Town and City",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "56",
-        "stages_url": "Robin"
+        "discord": "",
+        "stages": [],
+        "number": "56"
     },
     "SHULK": {
         "name": "shulk",
@@ -2140,31 +1348,18 @@
         "beat": [
             "GiSoRFtau0o"
         ],
-        "discord": "NpXtA3f",
-        "stages": [
-            "Final Destination",
-            "Unova",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Kalos",
-            "Smashville",
-            "Battlefield",
-            "Yoshi's Island",
-            "Yoshi's Story",
-            "Lylat Cruise"
-        ],
-        "number": "57",
-        "stages_url": "Shulk"
+        "discord": "",
+        "stages": [],
+        "number": "57"
     },
     "BOWSER JR.": {
         "name": "bowser jr.",
         "thumb_name": "bowser_jr",
-        "frame": "bowser_jr",
+        "frame": "bowser_jr.",
         "tips": [
             "Bowser Jr isn't a hot character right now and loves spacing you out. Just go in close and use large hitboxes to annoy him back",
-            "He can't do squat against shields. Hold your guard up and don\u00e2\u20ac\u2122t get grabbed",
-            "Remember that you can grab the Mechakoopa(Bowser Jr\u00e2\u20ac\u2122s down B) and you can use it for yourself"
+            "He can't do squat against shields. Hold your guard up and don’t get grabbed",
+            "Remember that you can grab the Mechakoopa(Bowser Jr’s down B) and you can use it for yourself"
         ],
         "guides": [
             "Wnzt7p_nLKQ"
@@ -2172,22 +1367,9 @@
         "beat": [
             "PavVg8zy06A"
         ],
-        "discord": "98a5WGM",
-        "stages": [
-            "Town and City",
-            "Kalos",
-            "Pokemon Stadium 2",
-            "Final Destination",
-            "Small Battlefield",
-            "Battlefield",
-            "Smashville",
-            "Unova",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "58",
-        "stages_url": "Bowser%20Jr."
+        "discord": "",
+        "stages": [],
+        "number": "58"
     },
     "DUCK HUNT": {
         "name": "duck hunt",
@@ -2206,22 +1388,9 @@
         "beat": [
             "jLVhIRc7nJk"
         ],
-        "discord": "0lSgxaH91EeSdy6V",
-        "stages": [
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Unova",
-            "Battlefield",
-            "Final Destination",
-            "Town and City",
-            "Yoshi's Story",
-            "Kalos",
-            "Smashville",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "59",
-        "stages_url": "Duck%20Hunt"
+        "discord": "",
+        "stages": [],
+        "number": "59"
     },
     "RYU": {
         "name": "ryu",
@@ -2244,22 +1413,9 @@
         "beat": [
             "bjTTdtQC2jc"
         ],
-        "discord": "9zy9qqG",
-        "stages": [
-            "Final Destination",
-            "Smashville",
-            "Kalos",
-            "Small Battlefield",
-            "Unova",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Battlefield",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "60",
-        "stages_url": "Ryu"
+        "discord": "",
+        "stages": [],
+        "number": "60"
     },
     "KEN": {
         "name": "ken",
@@ -2282,22 +1438,9 @@
         "beat": [
             "bjTTdtQC2jc"
         ],
-        "discord": "9zy9qqG",
-        "stages": [
-            "Smashville",
-            "Final Destination",
-            "Small Battlefield",
-            "Unova",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Yoshi's Island",
-            "Kalos",
-            "Town and City"
-        ],
-        "number": "60",
-        "stages_url": "Ken"
+        "discord": "",
+        "stages": [],
+        "number": "60"
     },
     "CLOUD": {
         "name": "cloud",
@@ -2326,22 +1469,9 @@
         "beat": [
             "YilydKi64IM"
         ],
-        "discord": "fk7NWD5",
-        "stages": [
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Kalos",
-            "Yoshi's Story",
-            "Small Battlefield",
-            "Smashville",
-            "Lylat Cruise",
-            "Final Destination",
-            "Unova",
-            "Yoshi's Island"
-        ],
-        "number": "61",
-        "stages_url": "Cloud"
+        "discord": "",
+        "stages": [],
+        "number": "61"
     },
     "CORRIN": {
         "name": "corrin",
@@ -2361,22 +1491,9 @@
         "beat": [
             "ZZ2V830NXIc"
         ],
-        "discord": "FPgq8kb",
-        "stages": [
-            "Yoshi's Story",
-            "Battlefield",
-            "Small Battlefield",
-            "Smashville",
-            "Unova",
-            "Pokemon Stadium 2",
-            "Kalos",
-            "Lylat Cruise",
-            "Yoshi's Island",
-            "Final Destination",
-            "Town and City"
-        ],
-        "number": "62",
-        "stages_url": "Corrin"
+        "discord": "",
+        "stages": [],
+        "number": "62"
     },
     "BAYONETTA": {
         "name": "bayonetta",
@@ -2393,22 +1510,9 @@
         "beat": [
             "QAjbCNXcZkM"
         ],
-        "discord": "0hnEtng5sDAInh0c",
-        "stages": [
-            "Yoshi's Story",
-            "Battlefield",
-            "Town and City",
-            "Kalos",
-            "Pokemon Stadium 2",
-            "Small Battlefield",
-            "Lylat Cruise",
-            "Unova",
-            "Final Destination",
-            "Smashville",
-            "Yoshi's Island"
-        ],
-        "number": "63",
-        "stages_url": "Bayonetta"
+        "discord": "",
+        "stages": [],
+        "number": "63"
     },
     "INKLING": {
         "name": "inkling",
@@ -2429,22 +1533,9 @@
         "beat": [
             "o-uJCD_LnJA"
         ],
-        "discord": "eJskccFuuU",
-        "stages": [
-            "Smashville",
-            "Pokemon Stadium 2",
-            "Small Battlefield",
-            "Lylat Cruise",
-            "Yoshi's Island",
-            "Yoshi's Story",
-            "Final Destination",
-            "Town and City",
-            "Battlefield",
-            "Unova",
-            "Kalos"
-        ],
-        "number": "64",
-        "stages_url": "Inkling"
+        "discord": "",
+        "stages": [],
+        "number": "64"
     },
     "RIDLEY": {
         "name": "ridley",
@@ -2468,22 +1559,9 @@
         "beat": [
             "7Gw4SARD6SY"
         ],
-        "discord": "3UJwxAh",
-        "stages": [
-            "Small Battlefield",
-            "Lylat Cruise",
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Smashville",
-            "Unova",
-            "Final Destination",
-            "Kalos",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "65",
-        "stages_url": "Ridley"
+        "discord": "",
+        "stages": [],
+        "number": "65"
     },
     "SIMON": {
         "name": "simon",
@@ -2503,22 +1581,9 @@
         "beat": [
             "1NwOHvD1d_k"
         ],
-        "discord": "yHRz4fG",
-        "stages": [
-            "Small Battlefield",
-            "Lylat Cruise",
-            "Town and City",
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Final Destination",
-            "Kalos",
-            "Unova",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "66",
-        "stages_url": "Simon%20(Richter)"
+        "discord": "",
+        "stages": [],
+        "number": "66"
     },
     "RICHTER": {
         "name": "richter",
@@ -2538,27 +1603,14 @@
         "beat": [
             "1NwOHvD1d_k"
         ],
-        "discord": "yHRz4fG",
-        "stages": [
-            "Small Battlefield",
-            "Lylat Cruise",
-            "Town and City",
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Final Destination",
-            "Kalos",
-            "Unova",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "66",
-        "stages_url": "Simon%20(Richter)"
+        "discord": "",
+        "stages": [],
+        "number": "66"
     },
     "KING K. ROOL": {
         "name": "king k. rool",
         "thumb_name": "king_k_rool",
-        "frame": "king_k_rool",
+        "frame": "king_k._rool",
         "tips": [
             "Careful of super armor, attempt to punish neutral b/side b due to lots of lag",
             "If your character deals a lot of damage, try to break his super armor, it's easier than you think sometimes",
@@ -2574,25 +1626,10 @@
             "q3_w0_7mLCw",
             "GiXLAbYAvAE"
         ],
-        "beat": [
-			"dxrgVkyU0JI"
-		],
-        "discord": "Xqrchru",
-        "stages": [
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Small Battlefield",
-            "Smashville",
-            "Town and City",
-            "Lylat Cruise",
-            "Unova",
-            "Final Destination",
-            "Kalos",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "67",
-        "stages_url": "King%20K.%20Rool"
+        "beat": [],
+        "discord": "",
+        "stages": [],
+        "number": "67"
     },
     "ISABELLE/shizue": {
         "name": "isabelle",
@@ -2609,22 +1646,9 @@
         "beat": [
             "mR0dv-1EjMs"
         ],
-        "discord": "buV2XbFBWY",
-        "stages": [
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Town and City",
-            "Unova",
-            "Final Destination",
-            "Yoshi's Story",
-            "Smashville",
-            "Kalos",
-            "Lylat Cruise",
-            "Yoshi's Island"
-        ],
-        "number": "68",
-        "stages_url": "Isabelle"
+        "discord": "",
+        "stages": [],
+        "number": "68"
     },
     "INCINEROAR": {
         "name": "incineroar",
@@ -2645,22 +1669,9 @@
         "beat": [
             "w9_Bfolhm8c"
         ],
-        "discord": "3DDQ9tQ",
-        "stages": [
-            "Smashville",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Battlefield",
-            "Yoshi's Island",
-            "Town and City",
-            "Small Battlefield",
-            "Unova",
-            "Final Destination",
-            "Pokemon Stadium 2",
-            "Kalos"
-        ],
-        "number": "69",
-        "stages_url": "Incineroar"
+        "discord": "",
+        "stages": [],
+        "number": "69"
     },
     "PIRANHA PLANT": {
         "name": "piranha plant",
@@ -2680,22 +1691,9 @@
         "beat": [
             "mNKLFn9tveI"
         ],
-        "discord": "HfsFQ8j",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Final Destination",
-            "Unova",
-            "Smashville",
-            "Small Battlefield",
-            "Town and City",
-            "Battlefield",
-            "Kalos",
-            "Lylat Cruise",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "70",
-        "stages_url": "Piranha%20Plant"
+        "discord": "",
+        "stages": [],
+        "number": "70"
     },
     "JOKER": {
         "name": "joker",
@@ -2707,7 +1705,7 @@
             "Don't be afraid to rush him down when he's got Arsene, dealing damage to him makes him lose the persona faster",
             "Joker mains have a weird fetish for the dash attack for some reason, which can be easily punished (for example: shield)",
             "Joker is especially susceptible to shield pressure, only oos option to really worry about is bair which isn't even that good",
-            "Arsene's Up B has no hitbox, although it has I-Frames at the start of the move, after this it is very vulnerable, easy spike if timed."
+            "Ars\u00e9ne's Up B has no hitbox, although it has I-Frames at the start of the move, after this it is very vulnerable, easy spike if timed."
         ],
         "guides": [
             "OcaLqUH3Nq4",
@@ -2717,22 +1715,9 @@
             "ydLT7A5g-NI",
             "MbuAw6Ksp-I"
         ],
-        "discord": "Pvwkbt8",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Town and City",
-            "Small Battlefield",
-            "Final Destination",
-            "Kalos",
-            "Unova",
-            "Yoshi's Story",
-            "Battlefield",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "71",
-        "stages_url": "Joker"
+        "discord": "",
+        "stages": [],
+        "number": "71"
     },
     "HERO/dq_hero": {
         "name": "hero",
@@ -2751,22 +1736,9 @@
         "beat": [
             "27gLlbm3U-E"
         ],
-        "discord": "Sf6EZuQ",
-        "stages": [
-            "Town and City",
-            "Pokemon Stadium 2",
-            "Kalos",
-            "Small Battlefield",
-            "Battlefield",
-            "Unova",
-            "Smashville",
-            "Yoshi's Story",
-            "Lylat Cruise",
-            "Final Destination",
-            "Yoshi's Island"
-        ],
-        "number": "72",
-        "stages_url": "Hero"
+        "discord": "",
+        "stages": [],
+        "number": "72"
     },
     "BANJO/BANJO AND KAZOOIE": {
         "name": "banjo",
@@ -2785,21 +1757,8 @@
             "ZDv-906WQNc"
         ],
         "discord": "gBhBsfm",
-        "stages": [
-            "Final Destination",
-            "Town and City",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Kalos",
-            "Smashville",
-            "Battlefield",
-            "Yoshi's Island",
-            "Unova",
-            "Yoshi's Story",
-            "Lylat Cruise"
-        ],
-        "number": "73",
-        "stages_url": "Banjo%20&%20Kazooie"
+        "stages": [],
+        "number": "73"
     },
     "TERRY": {
         "name": "terry",
@@ -2821,22 +1780,9 @@
         "beat": [
             "JrFkn5GnRtM"
         ],
-        "discord": "3BvsNSwXu2",
-        "stages": [
-            "Small Battlefield",
-            "Final Destination",
-            "Smashville",
-            "Town and City",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Kalos",
-            "Unova",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "74",
-        "stages_url": "Terry"
+        "discord": "",
+        "stages": [],
+        "number": "74"
     },
     "BYLETH": {
         "name": "byleth",
@@ -2850,22 +1796,9 @@
         "beat": [
             "h5A1yO9j0Qk"
         ],
-        "discord": "byleth",
-        "stages": [
-            "Yoshi's Story",
-            "Battlefield",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Yoshi's Island",
-            "Kalos",
-            "Unova",
-            "Lylat Cruise",
-            "Town and City",
-            "Final Destination"
-        ],
-        "number": "75",
-        "stages_url": "Byleth"
+        "discord": "",
+        "stages": [],
+        "number": "75"
     },
     "MIN MIN/minmin": {
         "name": "min min",
@@ -2881,22 +1814,9 @@
             "Uxhao_vbGTU",
             "5cZzmyHC5NI"
         ],
-        "discord": "P9QPeFr",
-        "stages": [
-            "Final Destination",
-            "Pokemon Stadium 2",
-            "Kalos",
-            "Town and City",
-            "Small Battlefield",
-            "Unova",
-            "Smashville",
-            "Battlefield",
-            "Yoshi's Island",
-            "Yoshi's Story",
-            "Lylat Cruise"
-        ],
-        "number": "76",
-        "stages_url": "Min%20Min"
+        "discord": "",
+        "stages": [],
+        "number": "76"
     },
     "STEVE": {
         "name": "steve",
@@ -2920,22 +1840,9 @@
             "yezmUXXKsQA",
             "921C9MgQ2zw"
         ],
-        "discord": "BRSDm9U",
-        "stages": [
-            "Final Destination",
-            "Small Battlefield",
-            "Pokemon Stadium 2",
-            "Kalos",
-            "Battlefield",
-            "Town and City",
-            "Smashville",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Unova",
-            "Lylat Cruise"
-        ],
-        "number": "77",
-        "stages_url": "Steve"
+        "discord": "",
+        "stages": [],
+        "number": "77"
     },
     "SEPHIROTH": {
         "name": "sephiroth",
@@ -2954,22 +1861,9 @@
         "beat": [
             "UpzKEq3v6_M"
         ],
-        "discord": "qqcCyUMBZE",
-        "stages": [
-            "Kalos",
-            "Town and City",
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Small Battlefield",
-            "Smashville",
-            "Unova",
-            "Final Destination",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Lylat Cruise"
-        ],
-        "number": "78",
-        "stages_url": "Sephiroth"
+        "discord": "",
+        "stages": [],
+        "number": "78"
     },
     "PYRA/homura": {
         "name": "pyra",
@@ -2995,22 +1889,9 @@
             "nke5NPYfS58",
             "IeTs9en0YU4"
         ],
-        "discord": "kX2usVD62C",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Small Battlefield",
-            "Battlefield",
-            "Final Destination",
-            "Smashville",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Unova",
-            "Kalos",
-            "Lylat Cruise"
-        ],
-        "number": "79",
-        "stages_url": "Pyra%20&%20Mythra"
+        "discord": "wrrBRE7crE",
+        "stages": [],
+        "number": "79"
     },
     "MYTHRA/homura": {
         "name": "mythra",
@@ -3036,22 +1917,9 @@
             "nke5NPYfS58",
             "IeTs9en0YU4"
         ],
-        "discord": "kX2usVD62C",
-        "stages": [
-            "Pokemon Stadium 2",
-            "Town and City",
-            "Small Battlefield",
-            "Battlefield",
-            "Final Destination",
-            "Smashville",
-            "Yoshi's Story",
-            "Yoshi's Island",
-            "Unova",
-            "Kalos",
-            "Lylat Cruise"
-        ],
-        "number": "79",
-        "stages_url": "Pyra%20&%20Mythra"
+        "discord": "wrrBRE7crE",
+        "stages": [],
+        "number": "79"
     },
     "KAZUYA": {
         "name": "kazuya",
@@ -3065,22 +1933,9 @@
         "beat": [
             "T7_zyk_vtGI"
         ],
-        "discord": "gvemyvhX6u",
-        "stages": [
-            "Final Destination",
-            "Town and City",
-            "Kalos",
-            "Unova",
-            "Pokemon Stadium 2",
-            "Battlefield",
-            "Yoshi's Island",
-            "Small Battlefield",
-            "Smashville",
-            "Yoshi's Story",
-            "Lylat Cruise"
-        ],
-        "number": "81",
-        "stages_url": "Kazuya"
+        "discord": "",
+        "stages": [],
+        "number": "81"
     },
     "SORA": {
         "name": "sora",
@@ -3094,21 +1949,8 @@
         "beat": [
             "iC8GWRHsAj8"
         ],
-        "discord": "Xkh9UTV9y4",
-        "stages": [
-            "Battlefield",
-            "Yoshi's Story",
-            "Small Battlefield",
-            "Smashville",
-            "Town and City",
-            "Lylat Cruise",
-            "Pokemon Stadium 2",
-            "Kalos",
-            "Final Destination",
-            "Unova",
-            "Yoshi's Island"
-        ],
-        "number": "82",
-        "stages_url": "Sora"
+        "discord": "",
+        "stages": [],
+        "number": "82"
     }
 }
