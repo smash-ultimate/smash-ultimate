@@ -51,6 +51,11 @@ info_base = """<html>
 			<ul>
 %TIPS%
 			</ul>
+			
+			<h1>Matchups</h1>
+            <div style="margin-left: 50px;">
+                %MUS%
+            </div>
 
 			<h1>Videos on How To Beat Them</h1>
 			%VIDEO%
@@ -252,6 +257,10 @@ def char_button(url, thumb, name):
     return f"""<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/{thumb}.png);" onclick="Go('{url}')">{name}</button>"""
 
 
+def char_icon(c):
+    return f"""<img width=40px height=40px src="https://smasharchives.com//assets/stock/{c}.png"></img>"""
+
+
 def stage(name):
     stages = {
         "Battlefield": "stage_img1",
@@ -296,6 +305,14 @@ for full_name in data:
     play_buttons += char_link("play/" + char, d["thumb_name"], d["name"]) + "\n"
     stage_buttons += char_button(d["stages_url"], d["thumb_name"], d["name"]) + "\n"
 
+    mus = ""
+    for mu in data[full_name]["matchups"]:
+        if data[full_name]["matchups"][mu] and mu != "-":
+            name = {"3": "Strong win (+3)", "2": "Easy win (+2)", "1": "Win (+1)", "0.5": "Slight win (+0.5)", "0": "Even (0)",
+                    "-0.5": "Slight loss (-0.5)", "-1": "Loss (-1)", "-2": "Major Loss (-2)", "-3": "Not winning (-3)"}[mu]
+            icons = "\n".join(char_icon(c) for c in data[full_name]["matchups"][mu])
+            mus += f"<h2>{name}</h2><div style='margin-left: 50px;'>{icons}</div>"
+
     info = (
         info_base
         .replace("%NAME%", d["name"])
@@ -306,6 +323,7 @@ for full_name in data:
         .replace("%STAGE_URL%", d["stages_url"])
         .replace("%GOOD_STAGES%", "\n".join([stage(s) for s in d["stages"][0:3]]))
         .replace("%BAD_STAGES%", "\n".join([stage(s) for s in d["stages"][-3:][::-1]]))
+        .replace("%MUS%", mus)
     )
 
     if d["tips"]:
