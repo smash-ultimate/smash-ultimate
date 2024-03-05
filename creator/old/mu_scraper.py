@@ -33,7 +33,7 @@ while i < len(chars):
 
 raw_mu_data = []
 
-with open("data.txt") as fp:
+with open("mu-data.txt") as fp:
     for line in fp:
         raw_mu_data.append(line.strip().split("\t"))
 

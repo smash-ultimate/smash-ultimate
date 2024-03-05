@@ -14,7 +14,7 @@ info_base = """<html>
 
 			<center class="bar">
 				<a href="./../info.html" style="background-color:black;"> <button class="bar-button">Character Info</button></a>
-				<a href="./../play.html" style="background-color:black;"> <button class="bar-button">How To Play A Character</button></a>
+				<!--<a href="./play.html" style="background-color:black;"> <button class="bar-button">How To Play A Character</button></a>-->
 				<a href="./../main.html" style="background-color:black;"> <button class="bar-button">Find A Main</button></a>
 				<a href="./../basics.html" style="background-color:black;"> <button class="bar-button">How TO Smash</button></a>
 				<a href="./../stages.html" style="background-color:black;"> <button class="bar-button">Legal Stages</button></a>
@@ -47,7 +47,7 @@ info_base = """<html>
 %BAD_STAGES%
 			</div>
 
-			<h1>Tips</h1>
+			<h1>Tips When Fighting</h1>
 			<ul>
 %TIPS%
 			</ul>
@@ -56,6 +56,12 @@ info_base = """<html>
             <div style="margin-left: 50px;">
                 %MUS%
             </div>
+			
+			<h2>Character Discord</h2>
+			<a href="https://discord.com/invite/%DISCORD%">https://discord.com/invite/%DISCORD%</a>
+			
+			<h2>Guides</h2>
+			%GUIDE%
 
 			<h1>Videos on How To Beat Them</h1>
 			%VIDEO%
@@ -96,13 +102,14 @@ play_base = """<html>
 		<div class="main-content">
 			<h2>Character Discord</h2>
 			<a href="https://discord.com/invite/%DISCORD%">https://discord.com/invite/%DISCORD%</a>
-			
+
 			<h2>Guides</h2>
 			%GUIDE%
 		</div>
 	</body>
 </html>
 """
+
 play_html = """<html>
 	<head>
 		<title>Smash-Ultimate - Play</title>
@@ -141,7 +148,6 @@ play_html = """<html>
 	
 	<script src="js/back_to_top.js"></script>
 </html>
-
 """
 
 info_html = """<html>
@@ -159,7 +165,7 @@ info_html = """<html>
 			
 			<center class="bar">
 				<a href="./info.html" style="background-color:black;"> <button class="bar-button">Character Info</button></a>
-				<a href="./play.html" style="background-color:black;"> <button class="bar-button">How To Play A Character</button></a>
+				<!--<a href="./play.html" style="background-color:black;"> <button class="bar-button">How To Play A Character</button></a>-->
 				<a href="./main.html" style="background-color:black;"> <button class="bar-button">Find A Main</button></a>
 				<a href="./basics.html" style="background-color:black;"> <button class="bar-button">How TO Smash</button></a>
 				<a href="./stages.html" style="background-color:black;"> <button class="bar-button">Legal Stages</button></a>
@@ -199,7 +205,7 @@ stages_html = """<html>
 			
 			<center class="bar">
 				<a href="./info.html" style="background-color:black;"> <button class="bar-button">Character Info</button></a>
-				<a href="./play.html" style="background-color:black;"> <button class="bar-button">How To Play A Character</button></a>
+				<!--<a href="./play.html" style="background-color:black;"> <button class="bar-button">How To Play A Character</button></a>-->
 				<a href="./main.html" style="background-color:black;"> <button class="bar-button">Find A Main</button></a>
 				<a href="./basics.html" style="background-color:black;"> <button class="bar-button">How TO Smash</button></a>
 				<a href="./stages.html" style="background-color:black;"> <button class="bar-button">Legal Stages</button></a>
@@ -311,10 +317,11 @@ for full_name in data:
             name = {"3": "Strong win (+3)", "2": "Easy win (+2)", "1": "Win (+1)", "0.5": "Slight win (+0.5)", "0": "Even (0)",
                     "-0.5": "Slight loss (-0.5)", "-1": "Loss (-1)", "-2": "Major Loss (-2)", "-3": "Not winning (-3)"}[mu]
             icons = "\n".join(char_icon(c) for c in data[full_name]["matchups"][mu])
-            mus += f"<h2>{name}</h2><div style='margin-left: 50px;'>{icons}</div>"
+            mus += f"<h2>{name}</h2><div style='margin-left: 50px;'>{icons}</div>\n"
 
     info = (
         info_base
+        .replace("%URL_NAME%", char)
         .replace("%NAME%", d["name"])
         .replace("%MU%", "https://smasharchives.com/character/" + str(id_))
         .replace("%THUMB_NAME%", d["thumb_name"])
@@ -324,6 +331,10 @@ for full_name in data:
         .replace("%GOOD_STAGES%", "\n".join([stage(s) for s in d["stages"][0:3]]))
         .replace("%BAD_STAGES%", "\n".join([stage(s) for s in d["stages"][-3:][::-1]]))
         .replace("%MUS%", mus)
+        .replace("%NAME%", d["name"])
+        .replace("%THUMB_NAME%", d["thumb_name"])
+        .replace("%GUIDE%", "\n".join([video(v) for v in d["guides"]]))
+        .replace("%DISCORD%", d["discord"])
     )
 
     if d["tips"]:
@@ -331,31 +342,13 @@ for full_name in data:
     else:
         info = info.replace("%TIPS%", "None")
 
-    play = (
-        play_base
-        .replace("%NAME%", d["name"])
-        .replace("%THUMB_NAME%", d["thumb_name"])
-        .replace("%GUIDE%", "\n".join([video(v) for v in d["guides"]]))
-        .replace("%DISCORD%", d["discord"])
-    )
-
-    with open("./../play/" + char + ".html", "w", encoding="UTF-8") as fp:
-        fp.write(play)
+    #with open("./../play/" + char + ".html", "w", encoding="UTF-8") as fp:
+    #    fp.write(play)
     with open("./../info/" + char + ".html", "w", encoding="UTF-8") as fp:
         fp.write(info)
-with open("./../play.html", "w", encoding="UTF-8") as fp:
-    fp.write(play_html.replace("%URLS%", play_buttons))
+#with open("./../play.html", "w", encoding="UTF-8") as fp:
+#    fp.write(play_html.replace("%URLS%", play_buttons))
 with open("./../info.html", "w", encoding="UTF-8") as fp:
     fp.write(info_html.replace("%URLS%", info_buttons))
 with open("./../stagepick.html", "w", encoding="UTF-8") as fp:
     fp.write(stages_html.replace("%URLS%", stage_buttons))
-#
-
-[
-    "YL, TL"
-    "WSep92_Z4CU",
-    "BYIZBipUIIU",
-
-    "YDYO5vVrsk8",
-    "D0Ml1w6rUmo"
-]
