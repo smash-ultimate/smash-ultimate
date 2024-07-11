@@ -35,6 +35,17 @@
             "Kalos",
             "Final Destination"
         ],
+	"attrs": {
+		"speed": 3,
+		"range": 1,
+		"oos": 5,
+		"box": 5,
+		"recovery": 3,
+		"ledge": 4,
+		"edge": 3,
+		"reflector": 4,
+		"projectile": 3
+	},
         "number": "1",
         "stages_url": "Mario",
         "matchups": {
@@ -172,6 +183,15 @@
             "Lylat Cruise",
             "Kalos"
         ],
+	"attrs": {
+		"speed": 4,
+		"range": 4,
+		"oos": 3,
+		"box": 3,
+		"recovery": 2,
+		"ledge": 3,
+		"edge": 3
+	},
         "number": "2",
         "stages_url": "Donkey%20Kong",
         "matchups": {
@@ -312,6 +332,16 @@
             "Battlefield",
             "Yoshi's Island"
         ],
+	"attrs": {
+		"speed": 2,
+		"range": 4,
+		"oos": 4,
+		"box": 3,
+		"recovery": 5,
+		"ledge": 4,
+		"edge": 5,
+		"projectile": 5
+	},
         "number": "3",
         "stages_url": "Link",
         "matchups": {
@@ -450,6 +480,16 @@
             "Smashville",
             "Yoshi's Island"
         ],
+	"attrs": {
+		"speed": 3,
+		"range": 3,
+		"oos": 4,
+		"box": 3,
+		"recovery": 4,
+		"ledge": 4,
+		"edge": 3,
+		"projectile": 5
+	},
         "number": "4",
         "stages_url": "Samus%20(Dark%20Samus)",
         "matchups": {
@@ -585,6 +625,16 @@
             "Smashville",
             "Yoshi's Island"
         ],
+	"attrs": {
+		"speed": 3,
+		"range": 3,
+		"oos": 4,
+		"box": 3,
+		"recovery": 4,
+		"ledge": 4,
+		"edge": 3,
+		"projectile": 5
+	},
         "number": "4e",
         "stages_url": "Samus%20(Dark%20Samus)",
         "matchups": {
@@ -723,6 +773,16 @@
             "Yoshi's Island",
             "Kalos"
         ],
+	"attrs": {
+		"speed": 3,
+		"range": 2,
+		"oos": 3,
+		"box": 4,
+		"recovery": 2,
+		"ledge": 4,
+		"edge": 3,
+		"projectile": 2
+	},
         "number": "5",
         "stages_url": "Yoshi",
         "matchups": {
@@ -861,6 +921,16 @@
             "Lylat Cruise",
             "Battlefield"
         ],
+	"attrs": {
+		"speed": 1,
+		"range": 2,
+		"oos": 3,
+		"box": 4,
+		"recovery": 3,
+		"ledge": 3,
+		"edge": 3,
+		"projectile": 0
+	},
         "number": "6",
         "stages_url": "Kirby",
         "matchups": {
@@ -1002,17 +1072,17 @@
             "Lylat Cruise",
             "Yoshi's Island"
         ],
-		"attrs": {
-			"speed": 5,
-			"range": 2,
-			"oos": 4,
-			"box": 3,
-			"recovery": 4,
-			"ledge": 4,
-			"edge": 0,
-			"reflector": 4,
-			"projectile": 1
-		},
+	"attrs": {
+		"speed": 5,
+		"range": 2,
+		"oos": 4,
+		"box": 3,
+		"recovery": 4,
+		"ledge": 4,
+		"edge": 0,
+		"reflector": 4,
+		"projectile": 1
+	},
         "number": "7",
         "stages_url": "Fox",
         "matchups": {
@@ -1151,6 +1221,16 @@
             "Small Battlefield",
             "Battlefield"
         ],
+	"attrs": {
+		"speed": 5,
+		"range": 1,
+		"oos": 4,
+		"box": 4,
+		"recovery": 5,
+		"ledge": 4,
+		"edge": 5,
+		"projectile": 4
+	},
         "number": "8",
         "stages_url": "Pikachu",
         "matchups": {
