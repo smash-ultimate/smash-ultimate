@@ -51,6 +51,8 @@ info_base = """<html>
 			<ul>
 %TIPS%
 			</ul>
+			<h1>Attributes</h1>
+%ATTRS%
 			
 			<h1>Matchups</h1>
             <div style="margin-left: 50px;">
@@ -263,8 +265,8 @@ def char_button(url, thumb, name):
     return f"""<button class="char-button" style="background-image:url(https://www.smashbros.com//assets_v2/img/fighter/thumb_h/{thumb}.png);" onclick="Go('{url}')">{name}</button>"""
 
 
-def char_icon(c):
-    return f"""<img width=40px height=40px src="https://smasharchives.com//assets/stock/{c}.png"></img>"""
+def char_icon(c, char):
+    return f"""<a href="./{char}.html"><img width=40px height=40px src="https://smasharchives.com//assets/stock/{c}.png"></img></a>"""
 
 
 def stage(name):
@@ -291,6 +293,62 @@ def stage(name):
     </span>"""
 
 
+def format_attrs(attrs):
+    fill_star = "★"
+    star = "☆"
+    return f"""<table>
+	<tr>
+		<td>🏃</td>
+		<td>Speed</td>
+		<td style="color: gold;">{fill_star*attrs['speed']}{star*(5 - attrs['speed'])}</td>
+	</tr>
+	<tr>
+		<td>⚔️</td>
+		<td>Range</td>
+		<td style="color: gold;">{fill_star*attrs['range']}{star*(5 - attrs['range'])}</td>
+	</tr>
+	<tr>
+		<td>&#128737;&#65039;</td>
+		<td>oos</td>
+		<td style="color: gold;">{fill_star*attrs['oos']}{star*(5 - attrs['oos'])}</td>
+	</tr>
+	<tr>
+		<td>🥊</td>
+		<td>Boxing</td>
+		<td style="color: gold;">{fill_star*attrs['box']}{star*(5 - attrs['box'])}</td>
+	</tr>
+	<tr>
+		<td style="color: red;">⛨</td>
+		<td>Recovery</td>
+		<td style="color: gold;">{fill_star*attrs['recovery']}{star*(5 - attrs['recovery'])}</td>
+	</tr>
+	<tr>
+		<td style="color: green;">⼚</td>
+		<td>Ledge Trapping </td>
+		<td style="color: gold;">{fill_star*attrs['ledge']}{star*(5 - attrs['ledge'])}</td>
+	</tr>
+	<tr>
+		<td style="color: red;">⼚</td>
+		<td>Edge guarding</td>
+		<td style="color: gold;">{fill_star*attrs['edge']}{star*(5 - attrs['edge'])}</td>
+	</tr>
+	%1
+	%2
+</table>""".replace("%1", "" if "reflector" not in attrs else f"""
+	<tr>
+		<td style="color: aqua;">⏣</td>
+		<td>Reflector</td>
+		<td style="color: gold;">{fill_star*attrs['reflector']}{star*(5 - attrs['reflector'])}</td>
+	</tr>""").replace("%2", "" if "projectile" not in attrs else f"""
+	<tr>
+		<td>🔫</td>
+		<td>Projectile</td>
+		<td style="color: gold;">{fill_star*attrs['projectile']}{star*(5 - attrs['projectile'])}</td>
+	</tr>""")
+
+                    
+	
+
 import json
 
 with open("data.json") as fp:
@@ -316,7 +374,7 @@ for full_name in data:
         if data[full_name]["matchups"][mu] and mu != "-":
             name = {"3": "Strong win (+3)", "2": "Easy win (+2)", "1": "Win (+1)", "0.5": "Slight win (+0.5)", "0": "Even (0)",
                     "-0.5": "Slight loss (-0.5)", "-1": "Loss (-1)", "-2": "Major Loss (-2)", "-3": "Not winning (-3)"}[mu]
-            icons = "\n".join(char_icon(c) for c in data[full_name]["matchups"][mu])
+            icons = "\n".join(char_icon(c, *[data[n]["name"] for n in data if data[n]["number"] == c and n not in ("Ivysaur", "Charizard", "MYTHRA/homura")]) for c in data[full_name]["matchups"][mu])
             mus += f"<h2>{name}</h2><div style='margin-left: 50px;'>{icons}</div>\n"
 
     info = (
@@ -335,6 +393,7 @@ for full_name in data:
         .replace("%THUMB_NAME%", d["thumb_name"])
         .replace("%GUIDE%", "\n".join([video(v) for v in d["guides"]]))
         .replace("%DISCORD%", d["discord"])
+        .replace("%ATTRS%", "NA, I havent gotten to this character yet" if "attrs" not in d else format_attrs(d["attrs"]))
     )
 
     if d["tips"]:
@@ -352,3 +411,145 @@ with open("./../info.html", "w", encoding="UTF-8") as fp:
     fp.write(info_html.replace("%URLS%", info_buttons))
 with open("./../stagepick.html", "w", encoding="UTF-8") as fp:
     fp.write(stages_html.replace("%URLS%", stage_buttons))
+
+
+
+"""
+    "RICHTER": {
+        "name": "richter",
+        "thumb_name": "richter",
+        "frame": "richter",
+        "tips": [
+            "Punish recovery",
+            "Will try to stay near the edge and projectile spam. Be patient and wait for an opening to get close.",
+            "Remember that Holy Water will activate any bomb-related projectiles, so be careful of throwing them against a Simon.",
+            "Punish recovery",
+            "Will try to stay near the edge and projectile spam. Be patient and wait for an opening to get close.",
+            "Small hitboxes"
+        ],
+        "guides": [
+            "Q600NwsUNX4"
+        ],
+        "beat": [
+            "1NwOHvD1d_k"
+        ],
+        "discord": "yHRz4fG",
+        "stages": [
+            "Small Battlefield",
+            "Lylat Cruise",
+            "Town and City",
+            "Battlefield",
+            "Pokemon Stadium 2",
+            "Smashville",
+            "Final Destination",
+            "Kalos",
+            "Unova",
+            "Yoshi's Story",
+            "Yoshi's Island"
+        ],
+        "number": "66",
+        "stages_url": "Simon%20(Richter)",
+        "matchups": {
+            "-": [
+                "66"
+            ],
+            "3": [],
+            "2": [
+                "9",
+                "48",
+                "69",
+                "15",
+                "18",
+                "39",
+                "23"
+            ],
+            "1": [
+                "40",
+                "60",
+                "37",
+                "21",
+                "65",
+                "59",
+                "2",
+                "6",
+                "17",
+                "70",
+                "49"
+            ],
+            "0.5": [
+                "81",
+                "82",
+                "62",
+                "47",
+                "32",
+                "53",
+                "67",
+                "52"
+            ],
+            "0": [
+                "77",
+                "55",
+                "13",
+                "36",
+                "21e",
+                "4",
+                "74",
+                "75",
+                "10",
+                "60",
+                "72",
+                "3",
+                "14",
+                "43",
+                "56",
+                "24",
+                "45",
+                "58",
+                "41",
+                "68"
+            ],
+            "-0.5": [
+                "54",
+                "61",
+                "26",
+                "31",
+                "1",
+                "22",
+                "51",
+                "25e",
+                "73"
+            ],
+            "-1": [
+                "42",
+                "25",
+                "44",
+                "76",
+                "33",
+                "30",
+                "78",
+                "20",
+                "46",
+                "11",
+                "27",
+                "12",
+                "28",
+                "28e"
+            ],
+            "-2": [
+                "79",
+                "71",
+                "38",
+                "7",
+                "8",
+                "57",
+                "29",
+                "5",
+                "50",
+                "16",
+                "64",
+                "63",
+                "19"
+            ],
+            "-3": []
+        }
+    },"""

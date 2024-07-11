@@ -6,7 +6,11 @@
         "tips": [
             "Punish his poor recovery",
             "Mario's jump (a lot) so intercept that",
-            "Bait out fair, then up-b to intercept"
+            "Bait out fair, then up-b to intercept",
+            "Try keep him cornered",
+            "Find a way to counter his fireballs",
+            "Bait the up smash in high % try avoid and bait and punish It",
+			"If you can, outrange his aerials & normals"
         ],
         "guides": [
             "vKBM9B8CEBw",
@@ -282,7 +286,9 @@
             "Once through, fight him close-up where he can't set up projectiles but watch out for his long lingering up smash and forward smashes.  ",
             "Walk, don't run. You can shield while walking but not during the initial dash. ",
             "Slow ground game",
-            "Shield grab"
+            "Shield grab",
+			"Shield attack -> grab",
+			"Bait his enevitable hero's spin (Up B) out of shield"
         ],
         "guides": [
             "OhF_pqvxYEc",
@@ -970,7 +976,9 @@
             "Use shield more than usual due to lack of good kill throws or combo throws",
             "Poor edgeguarding other than shine spike",
             "Watch out for dash attack and nair",
-            "Easily comboed as he is a fast faller"
+            "Easily comboed as he is a fast faller",
+			"You can shield side b",
+			"Has extremely fast falling speed, keep that in mind."
         ],
         "guides": [
             "xVbrtGvncd8",
@@ -994,6 +1002,17 @@
             "Lylat Cruise",
             "Yoshi's Island"
         ],
+		"attrs": {
+			"speed": 5,
+			"range": 2,
+			"oos": 4,
+			"box": 3,
+			"recovery": 4,
+			"ledge": 4,
+			"edge": 0,
+			"reflector": 4,
+			"projectile": 1
+		},
         "number": "7",
         "stages_url": "Fox",
         "matchups": {
@@ -1107,7 +1126,7 @@
             "Watch out for b-air off stage, it can drag you to the blast zone",
             "Always avoid Pikachu when he's coming at you off stage, recover low, high, or just die so you don't get b-air chained to the blast zone",
             "Watch out for lighting loops",
-            "I would explain how to escape nair loops, but this video explains it much better than I can. yay video",
+            "I would explain how to escape nair loops, but this video explains it much better than I can. <a href=\"https://www.youtube.com/watch?v=ytSnjJJ2VPI\">yay video (https://www.youtube.com/watch?v=ytSnjJJ2VPI)</a>",
             "Try and mix up how u react to neutral b - don't always jump or shield as he can usually get a grab or an aerial"
         ],
         "guides": [
@@ -2906,7 +2925,8 @@
         "tips": [
             "Punish recovery",
             "Watch out for up tilt",
-            "Side B is shieldable"
+            "Side B is shieldable",
+			"His blaster absolutely disrespects anyone with bad recovery’s just off of ledge"
         ],
         "guides": [
             "YsLJssA01b4",
@@ -3315,7 +3335,7 @@
             "Pray to God they can't ladder projectiles into Up B",
             "Shield a lot, but don't shield to the point your shield will inevitably break.",
             "Look out for those down angled boomerangs to f-air, it kills at around 80 if your near the edge of the stage ",
-            "Watch out for arrows",
+            "Watch out for arrows; when reflected, they do not fly far.",
             "Pressure with close combat since young link prefers to camp",
             "Very light character so go for kill moves early"
         ],
@@ -3864,7 +3884,8 @@
         "tips": [
             "Bait out double jump and can gimp super early",
             "Easy method for gimping is (if you have one) to counter. Almost guaranteed kill (sometimes they get lucky when they are hit and can airdodge to stage or their up b will barely sweetspot stage and not hit you by pixels sometimes). If you don't have a counter, some spikes are pretty guaranteed if you hit Chrom at the max height of up b.",
-            "Also some rapid jabs if they are disjointed"
+            "Also some rapid jabs if they are disjointed",
+			"He can survive and spike you with an up b if he’s able to grab ledge; keep him as far away from it as possible and avoid his suicide."
         ],
         "guides": [
             "fn0v1UUpI18",
@@ -6352,7 +6373,8 @@
             "upmeN9cdpNA"
         ],
         "beat": [
-            "-2p1k1WEgAc"
+            "-2p1k1WEgAc",
+			"BLleiMN4iso"
         ],
         "discord": "FkSQVBp",
         "stages": [
@@ -6480,7 +6502,9 @@
         "frame": "toon_link",
         "tips": [
             "He can't land very well (floaty, few landing options)",
-            "Slow on ground"
+            "Slow on ground",
+			"Smash attacks are single hit unlike the other links and have very short hitboxes; try to outrange them",
+			"Bombs can reliably combo into most neutrals, particularly fairs. Grab them if you’re one of those people"
         ],
         "guides": [
             "YDYO5vVrsk8",
@@ -6752,7 +6776,9 @@
             "Watch out for up air",
             "Watch out for tree",
             "Villager got a nerf recently and you are able to shield most of villager's projectiles.",
-            "Villager's grab is a bit more range than most players but has a lot of end lag if missed"
+            "Villager's grab is a bit more range than most players but has a lot of end lag if missed",
+			"Tree does massive shield damage so try to roll or run away if possible, reflecting it is possible and does one shot depending on the strength of the reflector but depending on the situation they may be able to pocket it.",
+			"Lloyd rockets are usually used to bait out an option, learn to parry them or mix up your options, also they are a frame 1 escape option that explodes on hit. Watch out for that."
         ],
         "guides": [
             "3C3gTqVOp0s"
@@ -7434,7 +7460,8 @@
             "Pay attention to and punish side b whiffs",
             "Poor rising hitboxes",
             "Be careful when recovering as his counter spikes",
-            "Slow grab"
+            "Slow grab",
+			"His neutral special can’t be held like Samus"
         ],
         "guides": [
             "_9LR4LzdAgE",
@@ -7568,7 +7595,9 @@
         "frame": "mii_brawler",
         "tips": [
             "Gimp",
-            "Some of his moves are easily punishable. To add salt to the wound, sometimes they even whiff frequently."
+            "Some of his moves are easily punishable. To add salt to the wound, sometimes they even whiff frequently.",
+			"Counter throw cannot activate on projectiles. It has the shortest activation window for a counter in the game and the smallest hitbox, use it to your advantage. They probably won’t have it, however, due to Feint Jump",
+			"They like to use shot put for edge guarding; use a tether move to recover or stay above it (as it falls really fast) or under the stage’s ledge"
         ],
         "guides": [
             "DXUnfL77wng",
@@ -7836,7 +7865,9 @@
         "thumb_name": "mii_fighter",
         "frame": "mii_gunner",
         "tips": [
-            "Has a really shitty neutral game if you take away her projectiles. Try to go for a rushdown tactic and don't let her breath."
+            "Has a really shitty neutral game if you take away her projectiles. Try to go for a rushdown tactic and don't let her breath.",
+			"Most of their up specials don’t have hitboxes that would hit you when they use it to recover. Feel free to gimp some of the weaker ones.",
+			"They like to use their down b bomb if you get too close below them. Avoid it and punish, especially if they’re midair"
         ],
         "guides": [
             "sild8FoS8XI"
@@ -8243,7 +8274,8 @@
         "frame": "robin",
         "tips": [
             "Pay attention to thunder, it is a solid combo starter/kill move/ shield breaker depending on the charge",
-            "He can't spam those projectiles forever, it will be pretty easy to capitalize on him once he runs out on the tomes and Levin Sword, since he's relatively weak without them."
+            "He can't spam those projectiles forever, it will be pretty easy to capitalize on him once he runs out on the tomes and Levin Sword, since he's relatively weak without them.",
+			"Gimp up b until he runs out of Elwind if you can"
         ],
         "guides": [
             "Gaiu9Jk31VU"
@@ -8951,11 +8983,11 @@
             "Kalos",
             "Town and City"
         ],
-        "number": "60",
+        "number": "60e",
         "stages_url": "Ken",
         "matchups": {
             "-": [
-                "60"
+                "60e"
             ],
             "3": [],
             "2": [],
@@ -9073,7 +9105,9 @@
             "You should probably be more careful about your landing when he has limit, Finishing Touch will kill everyone at like 70% so Clouds will be looking to bait out your move and clap you with it. It has a shit ton of startup and endlag though so if you see him attempt to use it close to you (and you're not in endlag yourself) you can just tap him out of it with a fast move (like a nair)",
             "If you're still practicing parrying vs Cloud, shielding is also good, his grab is trash with literally no follow ups",
             "dtilt->(utilt or uair) isn't a true combo. Hold shield immediately after they unfortunately hit you with the dtilt to insta-airdodge the follow  up.",
-            "Dash attack kill power is extremely di dependent"
+            "Dash attack kill power is extremely di dependent",
+			"Look out for bair, it has impressive range, power, and almost no landing lag. If your recovering from being hit off the stage, best to not get hit by that.",
+			"While Cloud has limit breaker, he is given a 20% increase in dash speed and air velocity, 15% increase in fall speed, and 15% increase in walk speed. He keeps it for 15 seconds. However, these stats may be out of date."
         ],
         "guides": [
             "dc3w_8r0seI",
@@ -9344,6 +9378,7 @@
         "frame": "bayonetta",
         "tips": [
             "Bayonetta likes to combo but her moves have a lot of lag. Be fairly liberal with shields, dodges and counters",
+			"If you shield Side B, she’s actually unable to do the kick afterwards. Use this to your advantage as its her main combo starter.",
             "Can't kill",
             "Up b doesn't clip to ledge"
         ],
@@ -9758,150 +9793,14 @@
         "thumb_name": "simon",
         "frame": "simon",
         "tips": [
-            "Punish recovery",
+            "Punish recovery, expect them to tether often with a fair or up air",
             "Will try to stay near the edge and projectile spam. Be patient and wait for an opening to get close.",
+			"Small hitboxes, but powerful tips like Marth's",
             "Remember that Holy Water will activate any bomb-related projectiles, so be careful of throwing them against a Simon.",
-            "Punish recovery",
+            "You can catch holy water (it triggers the second time it hits something)",
             "Will try to stay near the edge and projectile spam. Be patient and wait for an opening to get close.",
-            "Small hitboxes"
-        ],
-        "guides": [
-            "Q600NwsUNX4"
-        ],
-        "beat": [
-            "1NwOHvD1d_k"
-        ],
-        "discord": "yHRz4fG",
-        "stages": [
-            "Small Battlefield",
-            "Lylat Cruise",
-            "Town and City",
-            "Battlefield",
-            "Pokemon Stadium 2",
-            "Smashville",
-            "Final Destination",
-            "Kalos",
-            "Unova",
-            "Yoshi's Story",
-            "Yoshi's Island"
-        ],
-        "number": "66",
-        "stages_url": "Simon%20(Richter)",
-        "matchups": {
-            "-": [
-                "66"
-            ],
-            "3": [],
-            "2": [
-                "9",
-                "48",
-                "69",
-                "15",
-                "18",
-                "39",
-                "23"
-            ],
-            "1": [
-                "40",
-                "60",
-                "37",
-                "21",
-                "65",
-                "59",
-                "2",
-                "6",
-                "17",
-                "70",
-                "49"
-            ],
-            "0.5": [
-                "81",
-                "82",
-                "62",
-                "47",
-                "32",
-                "53",
-                "67",
-                "52"
-            ],
-            "0": [
-                "77",
-                "55",
-                "13",
-                "36",
-                "21e",
-                "4",
-                "74",
-                "75",
-                "10",
-                "60",
-                "72",
-                "3",
-                "14",
-                "43",
-                "56",
-                "24",
-                "45",
-                "58",
-                "41",
-                "68"
-            ],
-            "-0.5": [
-                "54",
-                "61",
-                "26",
-                "31",
-                "1",
-                "22",
-                "51",
-                "25e",
-                "73"
-            ],
-            "-1": [
-                "42",
-                "25",
-                "44",
-                "76",
-                "33",
-                "30",
-                "78",
-                "20",
-                "46",
-                "11",
-                "27",
-                "12",
-                "28",
-                "28e"
-            ],
-            "-2": [
-                "79",
-                "71",
-                "38",
-                "7",
-                "8",
-                "57",
-                "29",
-                "5",
-                "50",
-                "16",
-                "64",
-                "63",
-                "19"
-            ],
-            "-3": []
-        }
-    },
-    "RICHTER": {
-        "name": "richter",
-        "thumb_name": "richter",
-        "frame": "richter",
-        "tips": [
-            "Punish recovery",
-            "Will try to stay near the edge and projectile spam. Be patient and wait for an opening to get close.",
-            "Remember that Holy Water will activate any bomb-related projectiles, so be careful of throwing them against a Simon.",
-            "Punish recovery",
-            "Will try to stay near the edge and projectile spam. Be patient and wait for an opening to get close.",
-            "Small hitboxes"
+            "They have a zero-death combo with midair down b (holy water) as a starter",
+			"Dair can spike or combo to up b, be careful when recovering to ledge"
         ],
         "guides": [
             "Q600NwsUNX4"
@@ -11262,7 +11161,9 @@
         "name": "min min",
         "thumb_name": "minmin",
         "frame": "min_min",
-        "tips": [],
+        "tips": [
+			"Whatever you do, either stay 3 marios away from her insanely long arms or jump over them. When any of her moves have lag, then you can play the game."
+		],
         "guides": [
             "IxeattPscpI",
             "YEzY2PWiHpg"
@@ -11403,7 +11304,8 @@
             "If mining interrupted then stats don't increase",
             "If minecart is used then go up and b- down to avoid being trapped or jump over.",
             "Recovery can be blocked whilst flying",
-            "Can combo you any time so prepare to die"
+            "Can combo you any time so prepare to die",
+			"Your best defense is to try to outrange him with speed or projectiles."
         ],
         "guides": [
             "wdYABozlCyc",
@@ -11955,7 +11857,17 @@
         "name": "kazuya",
         "thumb_name": "kazuya",
         "frame": "kazuya",
-        "tips": [],
+        "tips": [
+			"Horrible disadvantage, but amazing advantage state.",
+			"Watch out for N-Air and F-Air.",
+			"Kazuya’s love spacing aerials to try to get into advantage.",
+			"EWGF is basically unpunishable out of shield because it pushes you away.",
+			"Don’t get hit (you’ll either take 90% or just straight up die, he has very high damage output)",
+			"Watch out for Rage Drive when he’s at 100%, he does more damage (as if he even needed any more) and gets a high damaging, super-armored command grab that kills any medium weight character at 80%. It’ll go away if they use it too much or if they get damaged a lot.",
+			"Try to get him as far away from the stage as possible, as he lacks good vertical recovery.",
+			"You have to learn which half of his moves have invincibility and which half have super-armor.",
+			"Try to punish laggy attacks like Side B and Smash Attacks"
+		],
         "guides": [
             "ImwcN7oXoAs",
             "cb1yvX1uZ1Q"
@@ -12087,7 +11999,19 @@
         "name": "sora",
         "thumb_name": "sora",
         "frame": "sora",
-        "tips": [],
+        "tips": [
+			"Floaty",
+			"Try to keep him on the ground as his aerial game is very good.",
+			"Good Sora mains might know how to do N-Air loops, learn to mix up your DI and SDI to either get out or make them space the N-Air incorrectly.",
+			"Try to bait out laggy attacks, online Sora’s love mashing.",
+			"Probably one of the best counters in the game and it locks you in front of him, even works on invincible moves like Wonderwing. Try to bait it out during combos or juggling and punish.",
+			"Cry because your never getting any new balance patches (joke)",
+			"Very hard to edgeguard due to Up B hitbox and homing Side B.",
+			"If they use Up B onstage they will almost always Side B to avoid being punished. Punish anyways. (Shielding it is your best option)",
+			"Fireaga can be spammed so try to avoid it",
+			"Thundaga is a very good ledgeguarding move that kills and can even be used under the stage to hit you on stage (goes through solid surfaces basically)",
+			"Blizzaga is really bad and is just a random freeze move, Ice Climbers do it better anyways."
+		],
         "guides": [
             "JL5qF6snEz8",
             "qdj9BQIbb9A"
